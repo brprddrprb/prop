@@ -1,19 +1,4 @@
 .footer-area {
-  --color00: #fff;
-  --color02: #f2f2f2;
-  --color03: #e7e7e7;
-  --color04: #c3c3c3;
-  --color05: #8b8b8b;
-  --color06: #7b818d;
-  --color07: #2a2e43;
-  --color08: #232020;
-  --color09: #1b1e2e;
-  --color10: #333;
-  --color11: #707070;
-  --color12: rgba(30,35,50,0.8);
-  --color13: #606060;
-  --color14: #515774;
-  --color01: #e33;
   color: var(--color06);
   -webkit-font-smoothing: antialiased;
   box-sizing: border-box;
@@ -27,21 +12,6 @@
 }
 
 .footer-contenido {
-  --color00: #fff;
-  --color02: #f2f2f2;
-  --color03: #e7e7e7;
-  --color04: #c3c3c3;
-  --color05: #8b8b8b;
-  --color06: #7b818d;
-  --color07: #2a2e43;
-  --color08: #232020;
-  --color09: #1b1e2e;
-  --color10: #333;
-  --color11: #707070;
-  --color12: rgba(30,35,50,0.8);
-  --color13: #606060;
-  --color14: #515774;
-  --color01: #e33;
   -webkit-font-smoothing: antialiased;
   font-family: Work Sans,sans-serif;
   box-sizing: border-box;
@@ -62,21 +32,6 @@
 }
 
 .footer-menu {
-  --color00: #fff;
-  --color02: #f2f2f2;
-  --color03: #e7e7e7;
-  --color04: #c3c3c3;
-  --color05: #8b8b8b;
-  --color06: #7b818d;
-  --color07: #2a2e43;
-  --color08: #232020;
-  --color09: #1b1e2e;
-  --color10: #333;
-  --color11: #707070;
-  --color12: rgba(30,35,50,0.8);
-  --color13: #606060;
-  --color14: #515774;
-  --color01: #e33;
   -webkit-font-smoothing: antialiased;
   font-family: Work Sans,sans-serif;
   -webkit-box-direction: normal;
@@ -85,21 +40,6 @@
 }
 
 .footer-menu ul {
-  --color00: #fff;
-  --color02: #f2f2f2;
-  --color03: #e7e7e7;
-  --color04: #c3c3c3;
-  --color05: #8b8b8b;
-  --color06: #7b818d;
-  --color07: #2a2e43;
-  --color08: #232020;
-  --color09: #1b1e2e;
-  --color10: #333;
-  --color11: #707070;
-  --color12: rgba(30,35,50,0.8);
-  --color13: #606060;
-  --color14: #515774;
-  --color01: #e33;
   -webkit-font-smoothing: antialiased;
   font-family: Work Sans,sans-serif;
   -webkit-box-direction: normal;
@@ -111,21 +51,6 @@
 }
 
 .footer-menu ul li {
-  --color00: #fff;
-  --color02: #f2f2f2;
-  --color03: #e7e7e7;
-  --color04: #c3c3c3;
-  --color05: #8b8b8b;
-  --color06: #7b818d;
-  --color07: #2a2e43;
-  --color08: #232020;
-  --color09: #1b1e2e;
-  --color10: #333;
-  --color11: #707070;
-  --color12: rgba(30,35,50,0.8);
-  --color13: #606060;
-  --color14: #515774;
-  --color01: #e33;
   -webkit-font-smoothing: antialiased;
   font-family: Work Sans,sans-serif;
   -webkit-box-direction: normal;
@@ -140,21 +65,6 @@
 }
 
 .redes {
-  --color00: #fff;
-  --color02: #f2f2f2;
-  --color03: #e7e7e7;
-  --color04: #c3c3c3;
-  --color05: #8b8b8b;
-  --color06: #7b818d;
-  --color07: #2a2e43;
-  --color08: #232020;
-  --color09: #1b1e2e;
-  --color10: #333;
-  --color11: #707070;
-  --color12: rgba(30,35,50,0.8);
-  --color13: #606060;
-  --color14: #515774;
-  --color01: #e33;
   -webkit-font-smoothing: antialiased;
   font-family: Work Sans,sans-serif;
   -webkit-box-direction: normal;
@@ -167,21 +77,6 @@
 }
 
 .redes h3 {
-  --color00: #fff;
-  --color02: #f2f2f2;
-  --color03: #e7e7e7;
-  --color04: #c3c3c3;
-  --color05: #8b8b8b;
-  --color06: #7b818d;
-  --color07: #2a2e43;
-  --color08: #232020;
-  --color09: #1b1e2e;
-  --color10: #333;
-  --color11: #707070;
-  --color12: rgba(30,35,50,0.8);
-  --color13: #606060;
-  --color14: #515774;
-  --color01: #e33;
   -webkit-font-smoothing: antialiased;
   -webkit-box-direction: normal;
   box-sizing: border-box;
@@ -196,21 +91,6 @@
 }
 
 .redes button {
-  --color00: #fff;
-  --color02: #f2f2f2;
-  --color03: #e7e7e7;
-  --color04: #c3c3c3;
-  --color05: #8b8b8b;
-  --color06: #7b818d;
-  --color07: #2a2e43;
-  --color08: #232020;
-  --color09: #1b1e2e;
-  --color10: #333;
-  --color11: #707070;
-  --color12: rgba(30,35,50,0.8);
-  --color13: #606060;
-  --color14: #515774;
-  --color01: #e33;
   -webkit-font-smoothing: antialiased;
   -webkit-box-direction: normal;
   vertical-align: middle;
@@ -236,21 +116,6 @@
 }
 
 .redes button a {
-  --color00: #fff;
-  --color02: #f2f2f2;
-  --color03: #e7e7e7;
-  --color04: #c3c3c3;
-  --color05: #8b8b8b;
-  --color06: #7b818d;
-  --color07: #2a2e43;
-  --color08: #232020;
-  --color09: #1b1e2e;
-  --color10: #333;
-  --color11: #707070;
-  --color12: rgba(30,35,50,0.8);
-  --color13: #606060;
-  --color14: #515774;
-  --color01: #e33;
   -webkit-font-smoothing: antialiased;
   -webkit-box-direction: normal;
   white-space: normal;
@@ -267,22 +132,26 @@
   align-items: center;
 }
 
-.redes button a svg {
-  --color00: #fff;
-  --color02: #f2f2f2;
-  --color03: #e7e7e7;
-  --color04: #c3c3c3;
-  --color05: #8b8b8b;
-  --color06: #7b818d;
-  --color07: #2a2e43;
-  --color08: #232020;
-  --color09: #1b1e2e;
-  --color10: #333;
-  --color11: #707070;
-  --color12: rgba(30,35,50,0.8);
-  --color13: #606060;
-  --color14: #515774;
-  --color01: #e33;
+.redes button a span {
+  -webkit-font-smoothing: antialiased;
+  -webkit-box-direction: normal;
+  white-space: normal;
+  line-height: 1em;
+  font-size: 1.35em;
+  box-sizing: border-box;
+  margin: 0;
+  font-family: Work Sans,sans-serif;
+  display: flex;
+  align-self: center;
+  position: relative;
+  height: 1em;
+  width: 1em;
+  user-select: none;
+  -webkit-tap-highlight-color: transparent;
+  color: var(--color01);
+}
+
+.redes button a span svg {
   -webkit-font-smoothing: antialiased;
   -webkit-box-direction: normal;
   white-space: normal;
