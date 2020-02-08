@@ -231,6 +231,15 @@
   margin: .75em 0;
 }
 
+.tasaciones h5::before, h5::after {
+  content: "";
+  display: inline-block;
+  width: 50%;
+  margin: 0 1em 0 -55%;
+  vertical-align: middle;
+  border-bottom: 1px solid;
+}
+
 .tasaciones h5 {
   --color00: #fff;
   --color02: #f2f2f2;
@@ -261,6 +270,10 @@
   color: var(--color05);
   text-transform: uppercase;
   padding: 0 .25em;
+}
+
+.tasaciones h5::after {
+  margin: 0 -55% 0 1em;
 }
 
 .tasaciones-whatsapp {
