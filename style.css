@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css?family=Work+Sans&display=swap');
+
+header {
+  --color00: #fff;
+  --color02: #f2f2f2;
+  --color03: #e7e7e7;
+  --color04: #c3c3c3;
+  --color05: #8b8b8b;
+  --color06: #7b818d;
+  --color07: #2a2e43;
+  --color08: #232020;
+  --color09: #1b1e2e;
+  --color10: #333;
+  --color11: #707070;
+  --color12: rgba(30,35,50,0.8);
+  --color13: #606060;
+  --color14: #515774;
+  --color01: #e33;
+  font-family: Work Sans,sans-serif;
+  color: var(--color06);
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
+  overflow: hidden;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  width: 100%;
+  background-image: linear-gradient(180deg,#f2f2f2 75%,hsla(0,0%,94.9%,0));
+  background-repeat: repeat-x;
+  z-index: 80;
+  margin-top: 0;
+  transition: all .25s;
+  top: 0;
+  position: fixed;
+}
+
+header h1 span {
+  --color00: #fff;
+  --color02: #f2f2f2;
+  --color03: #e7e7e7;
+  --color04: #c3c3c3;
+  --color05: #8b8b8b;
+  --color06: #7b818d;
+  --color07: #2a2e43;
+  --color08: #232020;
+  --color09: #1b1e2e;
+  --color10: #333;
+  --color11: #707070;
+  --color12: rgba(30,35,50,0.8);
+  --color13: #606060;
+  --color14: #515774;
+  --color01: #e33;
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
+  font-family: Work Sans,sans-serif;
+  display: flex;
+  align-self: flex-start;
+  cursor: pointer;
+  margin: .5em .75em;
+  width: 6em;
+  color: var(--color01);
+}
+
+.home {
+  --color00: #fff;
+  --color02: #f2f2f2;
+  --color03: #e7e7e7;
+  --color04: #c3c3c3;
+  --color05: #8b8b8b;
+  --color06: #7b818d;
+  --color07: #2a2e43;
+  --color08: #232020;
+  --color09: #1b1e2e;
+  --color10: #333;
+  --color11: #707070;
+  --color12: rgba(30,35,50,0.8);
+  --color13: #606060;
+  --color14: #515774;
+  --color01: #e33;
+  font-family: Work Sans,sans-serif;
+  color: var(--color06);
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
+  -webkit-box-pack: center;
+  justify-content: center;
+  z-index: 0;
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  background-size: contain!important;
+  background: url(/img/home-b-mob@2x.jpg) repeat-x transparent;
+}
+
+.beneficios {
+  --color00: #fff;
+  --color02: #f2f2f2;
+  --color03: #e7e7e7;
+  --color04: #c3c3c3;
+  --color05: #8b8b8b;
+  --color06: #7b818d;
+  --color07: #2a2e43;
+  --color08: #232020;
+  --color09: #1b1e2e;
+  --color10: #333;
+  --color11: #707070;
+  --color12: rgba(30,35,50,0.8);
+  --color13: #606060;
+  --color14: #515774;
+  --color01: #e33;
+  font-family: Work Sans,sans-serif;
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
+  margin: 0;
+  width: 100%;
+  color: var(--color00);
+  display: flex;
+  flex-wrap: wrap;
+  -webkit-box-pack: center;
+  justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  flex-direction: column;
+  -webkit-box-align: center;
+  align-items: center;
+  padding: 2em 0 0;
+  background-color: var(--color02);
+}
+
+.beneficios h4 {
+  --color00: #fff;
+  --color02: #f2f2f2;
+  --color03: #e7e7e7;
+  --color04: #c3c3c3;
+  --color05: #8b8b8b;
+  --color06: #7b818d;
+  --color07: #2a2e43;
+  --color08: #232020;
+  --color09: #1b1e2e;
+  --color10: #333;
+  --color11: #707070;
+  --color12: rgba(30,35,50,0.8);
+  --color13: #606060;
+  --color14: #515774;
+  --color01: #e33;
+  -webkit-font-smoothing: antialiased;
+  -webkit-box-direction: normal;
+  box-sizing: border-box;
+  margin: 0;
+  text-transform: uppercase;
+  color: var(--color07);
+  font-family: Work Sans,sans-serif;
+  font-weight: 400;
+  font-size: 1em;
+  line-height: 1em;
+  letter-spacing: .1em;
+  padding-bottom: .25em;
+}
+
+.beneficios h3 {
+  --color00: #fff;
+  --color02: #f2f2f2;
+  --color03: #e7e7e7;
+  --color04: #c3c3c3;
+  --color05: #8b8b8b;
+  --color06: #7b818d;
+  --color07: #2a2e43;
+  --color08: #232020;
+  --color09: #1b1e2e;
+  --color10: #333;
+  --color11: #707070;
+  --color12: rgba(30,35,50,0.8);
+  --color13: #606060;
+  --color14: #515774;
+  --color01: #e33;
+  -webkit-font-smoothing: antialiased;
+  -webkit-box-direction: normal;
+  box-sizing: border-box;
+  margin: 0;
+  font-family: Work Sans,sans-serif;
+  color: var(--color01);
+  font-weight: 600;
+  font-size: 1.75em;
+  line-height: 1em;
+  padding-bottom: .75em;
+}
