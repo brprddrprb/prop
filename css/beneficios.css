@@ -187,3 +187,61 @@
   line-height: 1.1em;
   font-size: .95em;
 }
+
+.beneficios .image {
+  --color00: #fff;
+  --color02: #f2f2f2;
+  --color03: #e7e7e7;
+  --color04: #c3c3c3;
+  --color05: #8b8b8b;
+  --color06: #7b818d;
+  --color07: #2a2e43;
+  --color08: #232020;
+  --color09: #1b1e2e;
+  --color10: #333;
+  --color11: #707070;
+  --color12: rgba(30,35,50,0.8);
+  --color13: #606060;
+  --color14: #515774;
+  --color01: #e33;
+  font-family: Work Sans,sans-serif;
+  -webkit-font-smoothing: antialiased;
+  color: var(--color00);
+  -webkit-box-direction: normal;
+  box-sizing: border-box;
+  margin: 0;
+  padding-left: .75em;
+  padding-right: .75em;
+  display: flex;
+  flex-wrap: wrap;
+  -webkit-box-pack: center;
+  justify-content: center;
+  width: 70%;
+}
+
+.beneficios .image .building {
+  --color00: #fff;
+  --color02: #f2f2f2;
+  --color03: #e7e7e7;
+  --color04: #c3c3c3;
+  --color05: #8b8b8b;
+  --color06: #7b818d;
+  --color07: #2a2e43;
+  --color08: #232020;
+  --color09: #1b1e2e;
+  --color10: #333;
+  --color11: #707070;
+  --color12: rgba(30,35,50,0.8);
+  --color13: #606060;
+  --color14: #515774;
+  --color01: #e33;
+  font-family: Work Sans,sans-serif;
+  -webkit-font-smoothing: antialiased;
+  color: var(--color00);
+  -webkit-box-direction: normal;
+  box-sizing: border-box;
+  max-width: 100%;
+  display: block;
+  height: 100%;
+  width: 100%;
+}
