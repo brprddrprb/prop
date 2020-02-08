@@ -23,7 +23,6 @@
   margin: 0;
   text-transform: uppercase;
   color: var(--color07);
-  font-family: Work Sans,sans-serif;
   font-weight: 400;
   font-size: 1em;
   line-height: 1em;
@@ -36,7 +35,6 @@
   -webkit-box-direction: normal;
   box-sizing: border-box;
   margin: 0;
-  font-family: Work Sans,sans-serif;
   color: var(--color01);
   font-weight: 600;
   font-size: 1.75em;
