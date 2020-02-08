@@ -90,3 +90,100 @@
   line-height: 1em;
   padding-bottom: .75em;
 }
+
+.list {
+  --color00: #fff;
+  --color02: #f2f2f2;
+  --color03: #e7e7e7;
+  --color04: #c3c3c3;
+  --color05: #8b8b8b;
+  --color06: #7b818d;
+  --color07: #2a2e43;
+  --color08: #232020;
+  --color09: #1b1e2e;
+  --color10: #333;
+  --color11: #707070;
+  --color12: rgba(30,35,50,0.8);
+  --color13: #606060;
+  --color14: #515774;
+  --color01: #e33;
+  font-family: Work Sans,sans-serif;
+  -webkit-font-smoothing: antialiased;
+  color: var(--color00);
+  -webkit-box-direction: normal;
+  box-sizing: border-box;
+  list-style: none;
+  margin: 0;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: start;
+  align-items: flex-start;
+  padding: .75em;
+  font-weight: 400;
+}
+
+.list li {
+  --color00: #fff;
+  --color02: #f2f2f2;
+  --color03: #e7e7e7;
+  --color04: #c3c3c3;
+  --color05: #8b8b8b;
+  --color06: #7b818d;
+  --color07: #2a2e43;
+  --color08: #232020;
+  --color09: #1b1e2e;
+  --color10: #333;
+  --color11: #707070;
+  --color12: rgba(30,35,50,0.8);
+  --color13: #606060;
+  --color14: #515774;
+  --color01: #e33;
+  font-family: Work Sans,sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -webkit-box-direction: normal;
+  list-style: none;
+  font-weight: 400;
+  box-sizing: border-box;
+  display: flex;
+  flex-wrap: wrap;
+  -webkit-box-pack: start;
+  justify-content: flex-start;
+  -webkit-box-align: center;
+  align-items: center;
+  color: var(--color06);
+  width: calc(50% - 1em);
+  padding-bottom: 1.4em;
+}
+
+.list li p {
+  --color00: #fff;
+  --color02: #f2f2f2;
+  --color03: #e7e7e7;
+  --color04: #c3c3c3;
+  --color05: #8b8b8b;
+  --color06: #7b818d;
+  --color07: #2a2e43;
+  --color08: #232020;
+  --color09: #1b1e2e;
+  --color10: #333;
+  --color11: #707070;
+  --color12: rgba(30,35,50,0.8);
+  --color13: #606060;
+  --color14: #515774;
+  --color01: #e33;
+  font-family: Work Sans,sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -webkit-box-direction: normal;
+  list-style: none;
+  font-weight: 400;
+  color: var(--color06);
+  box-sizing: border-box;
+  margin: 0;
+  padding-left: .5em;
+  width: calc(100% - 3.5em);
+  line-height: 1.1em;
+  font-size: .95em;
+}
