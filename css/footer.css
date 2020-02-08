@@ -13,7 +13,6 @@
 
 .footer-contenido {
   -webkit-font-smoothing: antialiased;
-  font-family: Work Sans,sans-serif;
   box-sizing: border-box;
   max-width: 1440px;
   margin: 0;
@@ -33,7 +32,6 @@
 
 .footer-menu {
   -webkit-font-smoothing: antialiased;
-  font-family: Work Sans,sans-serif;
   -webkit-box-direction: normal;
   color: var(--color00);
   box-sizing: border-box;
@@ -41,7 +39,6 @@
 
 .footer-menu ul {
   -webkit-font-smoothing: antialiased;
-  font-family: Work Sans,sans-serif;
   -webkit-box-direction: normal;
   color: var(--color00);
   box-sizing: border-box;
@@ -52,7 +49,6 @@
 
 .footer-menu ul li {
   -webkit-font-smoothing: antialiased;
-  font-family: Work Sans,sans-serif;
   -webkit-box-direction: normal;
   list-style: none;
   box-sizing: border-box;
@@ -66,7 +62,6 @@
 
 .redes {
   -webkit-font-smoothing: antialiased;
-  font-family: Work Sans,sans-serif;
   -webkit-box-direction: normal;
   color: var(--color00);
   box-sizing: border-box;
@@ -81,7 +76,6 @@
   -webkit-box-direction: normal;
   box-sizing: border-box;
   margin: 0;
-  font-family: Work Sans,sans-serif;
   width: 100%;
   color: #4b4b4b;
   font-size: 1em;
@@ -95,7 +89,6 @@
   -webkit-box-direction: normal;
   vertical-align: middle;
   white-space: normal;
-  font-family: Work Sans,sans-serif;
   box-sizing: border-box;
   overflow: visible;
   width: auto;
@@ -119,7 +112,6 @@
   -webkit-font-smoothing: antialiased;
   -webkit-box-direction: normal;
   white-space: normal;
-  font-family: Work Sans,sans-serif;
   line-height: 1em;
   user-select: none;
   -webkit-tap-highlight-color: transparent;
@@ -140,7 +132,6 @@
   font-size: 1.35em;
   box-sizing: border-box;
   margin: 0;
-  font-family: Work Sans,sans-serif;
   display: flex;
   align-self: center;
   position: relative;
@@ -159,7 +150,6 @@
   font-size: 1.35em;
   box-sizing: border-box;
   margin: 0;
-  font-family: Work Sans,sans-serif;
   display: flex;
   align-self: center;
   position: relative;
