@@ -26,6 +26,24 @@
   position: relative;
 }
 
+.tasaciones-img img {
+  font-family: Work Sans,sans-serif;
+  color: var(--color06);
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
+  max-width: 100%;
+  min-height: 100%;
+  min-width: 100%;
+  height: auto;
+  width: auto;
+  top: -100%;
+  bottom: -100%;
+  left: -100%;
+  right: -100%;
+  margin: auto;
+  overflow: hidden!important;
+}
+
 .tasaciones-contenido {
   color: var(--color06);
   -webkit-font-smoothing: antialiased;
