@@ -58,6 +58,20 @@ body {
   padding-top: 2.5em;
 }
 
+.home-area {
+  color: var(--color06);
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
+  -webkit-box-pack: center;
+  justify-content: center;
+  z-index: 0;
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  background-size: contain!important;
+  background: url(/img/home-a-mob@2x.jpg) repeat-x transparent;
+}
+
 header {
   display: flex;
   flex-wrap: wrap;
