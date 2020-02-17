@@ -39,6 +39,23 @@ body {
   min-height: 100%;
 }
 
+.app .common {
+  color: var(--color06);
+  box-sizing: border-box;
+  display: flex;
+  flex-wrap: wrap;
+  -webkit-box-pack: center;
+  justify-content: center;
+  -webkit-box-align: start;
+  align-items: flex-start;
+  align-content: flex-start;
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+  min-height: 100%;
+  -webkit-font-smoothing: antialiased;
+}
+
 .home {
   font-family: Work Sans,sans-serif;
   color: var(--color06);
@@ -130,4 +147,20 @@ header h1 span {
   line-height: 1em;
   -webkit-transition: all .15s ease-in-out;
   transition: all .15s ease-in-out
+}
+
+.card-area {
+  color: var(--color06);
+  -webkit-font-smoothing: antialiased;
+  -webkit-box-direction: normal;
+  box-sizing: border-box;
+  -webkit-box-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  align-items: center;
+  user-select: none;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  padding: .375em .75em .375em 2.75em;
 }
