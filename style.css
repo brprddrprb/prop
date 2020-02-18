@@ -164,3 +164,19 @@ header h1 span {
   flex-wrap: wrap;
   padding: .375em .75em .375em 2.75em;
 }
+
+.display-area {
+  color: var(--color06);
+  -webkit-font-smoothing: antialiased;
+  -webkit-box-direction: normal;
+  box-sizing: border-box;
+  display: flex;
+  flex-wrap: wrap;
+  -webkit-box-pack: center;
+  justify-content: center;
+  -webkit-box-align: start;
+  align-items: flex-start;
+  position: relative;
+  width: 100%;
+  height: auto;
+}

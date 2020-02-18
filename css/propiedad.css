@@ -1,0 +1,362 @@
+button.cancel {
+  -webkit-font-smoothing: antialiased;
+  -webkit-box-direction: normal;
+  vertical-align: middle;
+  white-space: normal;
+  font-family: Work Sans,sans-serif;
+  box-sizing: border-box;
+  overflow: visible;
+  width: auto;
+  cursor: pointer;
+  background: transparent;
+  border: none;
+  line-height: 1em;
+  transition: all .15s ease-in-out;
+  user-select: none;
+  -webkit-tap-highlight-color: transparent;
+  padding: .5em;
+  font-size: 1.2em;
+  display: flex;
+  flex-wrap: wrap;
+  -webkit-box-pack: center;
+  justify-content: center;
+  color: var(--color01);
+  background-color: var(--color00);
+  border-radius: 2em;
+  margin: 0 .25em;
+  text-transform: uppercase;
+  box-shadow: 0 .1em .3em rgba(0,0,0,.08);
+  position: absolute;
+  left: .25em;
+  top: .25em;
+  z-index: 3000;
+}
+
+.display-ar {
+  color: var(--color06);
+  -webkit-font-smoothing: antialiased;
+  -webkit-box-direction: normal;
+  box-sizing: border-box;
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.display-area {
+  color: var(--color06);
+  -webkit-font-smoothing: antialiased;
+  -webkit-box-direction: normal;
+  box-sizing: border-box;
+  display: flex;
+  flex-wrap: wrap;
+  -webkit-box-pack: center;
+  justify-content: center;
+  -webkit-box-align: start;
+  align-items: flex-start;
+  position: relative;
+  width: 100%;
+  height: auto;
+}
+
+div.gallery-area.window {
+  color: var(--color06);
+  -webkit-font-smoothing: antialiased;
+  -webkit-box-direction: normal;
+  box-sizing: border-box;
+  display: flex;
+  flex-wrap: wrap;
+  -webkit-box-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  align-items: center;
+  position: relative;
+  width: 100%;
+  max-width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+div.gallery-content {
+  color: var(--color06);
+  -webkit-font-smoothing: antialiased;
+  -webkit-box-direction: normal;
+  box-sizing: border-box;
+  z-index: 20;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  -webkit-box-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  align-items: center;
+  height: 375px;
+}
+
+.item {
+  color: var(--color06);
+  -webkit-font-smoothing: antialiased;
+  -webkit-box-direction: normal;
+  box-sizing: border-box;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  -webkit-box-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  align-items: center;
+  z-index: 10;
+  position: absolute;
+  overflow: hidden;
+}
+
+.active {
+  z-index: 15;
+}
+
+div.image.image-area.adaptative {
+  color: var(--color06);
+  -webkit-font-smoothing: antialiased;
+  -webkit-box-direction: normal;
+  box-sizing: border-box;
+  width: 100%;
+  position: relative;
+  padding-bottom: 100%;
+  overflow: hidden;
+}
+
+div.image.image-area.adaptative img {
+  color: var(--color06);
+  -webkit-font-smoothing: antialiased;
+  -webkit-box-direction: normal;
+  box-sizing: border-box;
+  max-width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: block;
+  object-fit: cover;
+}
+
+.control-prev-btn {
+  -webkit-font-smoothing: antialiased;
+  -webkit-box-direction: normal;
+  margin: 0;
+  vertical-align: middle;
+  white-space: normal;
+  font-family: Work Sans,sans-serif;
+  box-sizing: border-box;
+  overflow: visible;
+  width: auto;
+  display: flex;
+  flex-wrap: wrap;
+  cursor: pointer;
+  background: transparent;
+  border: none;
+  line-height: 1em;
+  transition: all .15s ease-in-out;
+  user-select: none;
+  -webkit-tap-highlight-color: transparent;
+  padding: .5em;
+  font-size: 1.2em;
+  z-index: 30;
+  position: absolute;
+  color: var(--color00);
+  right: .5em;
+  border-radius: 2em;
+}
+
+.control-next-btn {
+  -webkit-font-smoothing: antialiased;
+  -webkit-box-direction: normal;
+  margin: 0;
+  vertical-align: middle;
+  white-space: normal;
+  font-family: Work Sans,sans-serif;
+  box-sizing: border-box;
+  overflow: visible;
+  width: auto;
+  display: flex;
+  flex-wrap: wrap;
+  cursor: pointer;
+  background: transparent;
+  border: none;
+  line-height: 1em;
+  transition: all .15s ease-in-out;
+  user-select: none;
+  -webkit-tap-highlight-color: transparent;
+  padding: .5em;
+  font-size: 1.2em;
+  z-index: 30;
+  position: absolute;
+  color: var(--color00);
+  left: .5em;
+  border-radius: 2em;
+}
+
+.mode-btn-simple {
+  -webkit-font-smoothing: antialiased;
+  -webkit-box-direction: normal;
+  margin: 0;
+  vertical-align: middle;
+  white-space: normal;
+  font-family: Work Sans,sans-serif;
+  box-sizing: border-box;
+  overflow: visible;
+  width: auto;
+  display: flex;
+  flex-wrap: wrap;
+  cursor: pointer;
+  background: transparent;
+  border: none;
+  line-height: 1em;
+  transition: all .15s ease-in-out;
+  user-select: none;
+  -webkit-tap-highlight-color: transparent;
+  font-size: 1.35em;
+  padding: .5em;
+  color: var(--color07);
+  position: absolute;
+  z-index: 20;
+  bottom: .25em;
+  right: .5em;
+  background-color: var(--color00);
+  border-radius: .5em;
+}
+
+.controller-area {
+  color: var(--color06);
+  -webkit-font-smoothing: antialiased;
+  -webkit-box-direction: normal;
+  box-sizing: border-box;
+  display: flex;
+  flex-wrap: wrap;
+  -webkit-box-pack: start;
+  justify-content: flex-start;
+  -webkit-box-align: start;
+  align-items: flex-start;
+  width: calc(100% - 4em);
+  min-height: 2em;
+  z-index: 60;
+  bottom: -3.5em;
+  left: 0;
+  padding: .375em;
+  position: absolute;
+}
+
+.controller-area .btn-display-m {
+  -webkit-font-smoothing: antialiased;
+  -webkit-box-direction: normal;
+  vertical-align: middle;
+  white-space: normal;
+  font-family: Work Sans,sans-serif;
+  box-sizing: border-box;
+  overflow: visible;
+  width: auto;
+  cursor: pointer;
+  background: transparent;
+  border: none;
+  line-height: 1em;
+  transition: all .15s ease-in-out;
+  user-select: none;
+  -webkit-tap-highlight-color: transparent;
+  padding: .5em;
+  font-size: 1.2em;
+  display: flex;
+  flex-wrap: wrap;
+  -webkit-box-pack: center;
+  justify-content: center;
+  color: var(--color01);
+  background-color: var(--color00);
+  border-radius: 2em;
+  margin: 0 .25em;
+  text-transform: uppercase;
+  box-shadow: 0 .1em .3em rgba(0,0,0,.08);
+}
+
+.controller-area .btn-display-m span {
+  -webkit-font-smoothing: antialiased;
+  -webkit-box-direction: normal;
+  white-space: normal;
+  cursor: pointer;
+  line-height: 1em;
+  font-size: 1.2em;
+  color: var(--color01);
+  text-transform: uppercase;
+  box-sizing: border-box;
+  margin: 0;
+  font-family: Work Sans,sans-serif;
+  display: flex;
+  align-self: center;
+  position: relative;
+  height: 1em;
+  width: 1em;
+  user-select: none;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.main {
+  color: var(--color06);
+  -webkit-font-smoothing: antialiased;
+  -webkit-box-direction: normal;
+  box-sizing: border-box;
+  margin: 0;
+  padding-left: .75em;
+  padding-right: .75em;
+  display: flex;
+  flex-wrap: wrap;
+  -webkit-box-align: start;
+  align-items: flex-start;
+  align-content: flex-start;
+  width: 100%;
+  margin-top: 2.5em;
+}
+
+.title-area {
+  color: var(--color06);
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  flex-direction: column;
+  font-family: Work Sans,sans-serif;
+  padding: 1.25em 0 1em 0;
+}
+
+.title-area h4 {
+  -webkit-font-smoothing: antialiased;
+  -webkit-box-direction: normal;
+  box-sizing: border-box;
+  margin: 0;
+  font-family: Work Sans,sans-serif;
+  display: flex;
+  flex-wrap: wrap;
+  -webkit-box-pack: start;
+  justify-content: flex-start;
+  font-size: 1em;
+  font-weight: 400;
+  color: var(--color06);
+}
+
+span.icon {
+-webkit-font-smoothing: antialiased;
+-webkit-box-direction: normal;
+font-weight: 400;
+box-sizing: border-box;
+margin: 0;
+font-family: Work Sans,sans-serif;
+display: flex;
+position: relative;
+height: 1em;
+width: 1em;
+align-self: center;
+color: var(--color06);
+font-size: 1em;
+margin-right: 1.35em;
+margin-left: .35em;
+}
