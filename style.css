@@ -89,7 +89,7 @@ body {
   background: url(/img/home-a-mob@2x.jpg) repeat-x transparent;
 }
 
-header {
+body > header {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
@@ -103,7 +103,7 @@ header {
   position: fixed;
 }
 
-header h1 span {
+body > header h1 span {
   display: flex;
   align-self: flex-start;
   cursor: pointer;
