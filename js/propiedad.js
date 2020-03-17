@@ -14,3 +14,6 @@ atrSetter('.title-area h2', 'direccion')
 
 // Tipo de propiedad
 atrSetter('.property-type', 'tipo')
+
+// Barrio
+atrSetter('.title-area > h4 > span:nth-child(2)', 'barrio')
