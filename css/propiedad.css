@@ -711,7 +711,7 @@ box-sizing: border-box;
   padding: .375em .75em .75em;
 }
 
-.desc main p {
+/* .desc main p {
   -webkit-box-direction: normal;
   box-sizing: border-box;
   margin: 0;
@@ -726,7 +726,7 @@ box-sizing: border-box;
   overflow: hidden;
   transition: all .35s;
   max-height: 9em;
-}
+} */
 
 .desc main p::after {
   display: block;
@@ -1079,4 +1079,30 @@ box-sizing: border-box;
       transform: translate(100%);
       z-index: 20
   }
+}
+
+.open {
+  max-height:auto
+}
+
+.close {
+  -webkit-transition: all .35s;
+  transition: all .35s;
+  max-height: 9em;
+}
+
+.desc {
+  width: 100%;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  padding-bottom: 2em
+}
+
+input {
+  -webkit-box-sizing: content-box;
+  box-sizing: content-box;
+  width: 13px;
+  height: 13px;
 }

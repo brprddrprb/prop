@@ -269,7 +269,7 @@ const propiedades = [
       ],
     },
     {
-      id: 7,
+      id: 8,
       imagen: '../img/propiedades/008/surra.01.jpg',
       direccion: 'NULL',
       barrio: 'NULL',
@@ -308,7 +308,7 @@ const propiedades = [
       ],
     },
     {
-      id: 7,
+      id: 9,
       imagen: '../img/propiedades/009/monet.01.jpg',
       direccion: 'NULL',
       barrio: 'NULL',
