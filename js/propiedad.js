@@ -20,3 +20,6 @@ atrSetter('.title-area > h4 > span:nth-child(2)', 'barrio')
 
 // Zona
 atrSetter('.title-area > h4', 'zona')
+
+// Descripcion
+atrSetter('.desc > div > main > p', 'descripcion')
