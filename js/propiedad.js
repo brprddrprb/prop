@@ -2,10 +2,12 @@ const urlParams = new URLSearchParams(window.location.search)
 const id = urlParams.get('id')
 const propiedad = propiedades.find( propiedad => propiedad.id == id )
 
+function atrSetter(cssSelector, attr) {
+  document.querySelector(cssSelector).append(propiedad[attr])
+}
+
 // Precio
-const priceEl = document.querySelector('.price')
-priceEl.append(propiedad.valor)
+atrSetter('.price', 'valor')
 
 // Direccion
-const direccionEl = document.querySelector('.title-area h2')
-direccionEl.append(propiedad.direccion)
+atrSetter('.title-area h2', 'direccion')
