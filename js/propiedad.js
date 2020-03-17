@@ -11,3 +11,6 @@ atrSetter('.price', 'valor')
 
 // Direccion
 atrSetter('.title-area h2', 'direccion')
+
+// Tipo de propiedad
+atrSetter('.property-type', 'tipo')
