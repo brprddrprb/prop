@@ -1,7 +1,23 @@
 const urlParams = new URLSearchParams(window.location.search)
 const id = urlParams.get('id')
 const propiedad = propiedades.find( propiedad => propiedad.id == id )
+const galeria = document.querySelector('.gallery-content')
 
+// Agregar imagenes a galeria
+function agregarImagenesAgaleria() {
+  let markup = ''
+  propiedad.carousel.forEach( img => markup += `
+  <div name="gallery" class="item">
+    <div class="image image-area adaptative scoped">
+      <img src=${img} alt="">
+    </div>
+  </div>
+  `)
+  galeria.innerHTML = markup
+}
+agregarImagenesAgaleria()
+
+// Setear texto de atributos propiedad
 function atrSetter(cssSelector, attr) {
   document.querySelector(cssSelector).append(propiedad[attr])
 }
