@@ -838,3 +838,168 @@ box-sizing: border-box;
   -webkit-tap-highlight-color: transparent;
   margin-right: .75em;
 }
+
+.actions-mob {
+  color: var(--color06);
+  -webkit-font-smoothing: antialiased;
+  -webkit-box-direction: normal;
+  box-sizing: border-box;
+  bottom: 0;
+  position: fixed;
+  height: 100px;
+  width: 100%;
+  z-index: 45;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.actions-mob .buttons-area {
+  color: var(--color06);
+  -webkit-font-smoothing: antialiased;
+  -webkit-box-direction: normal;
+  box-sizing: border-box;
+  display: flex;
+  flex-wrap: wrap;
+  -webkit-box-pack: center;
+  justify-content: center;
+  width: 100%;
+  margin: 0;
+  padding: 0 .75em .375em;
+  -webkit-box-align: center;
+  align-items: center;
+  height: 100%;
+  position: relative;
+  background-image: linear-gradient(180deg,hsla(0,0%,90.6%,0) 14%,#e7e7e7 80%);
+  background-repeat: repeat-x;
+}
+
+.actions-mob .buttons-content {
+  color: var(--color06);
+  -webkit-font-smoothing: antialiased;
+  -webkit-box-direction: normal;
+  box-sizing: border-box;
+  display: flex;
+  flex-wrap: wrap;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+  width: 100%;
+  padding-top: .375em;
+  padding-bottom: .375em;
+  height: 100%;
+  max-width: 28em;
+}
+
+.actions-mob .btn-mobile-atras {
+  margin: 0;
+  vertical-align: middle;
+  white-space: normal;
+  font-size: 13px;
+  box-sizing: border-box;
+  overflow: visible;
+  width: calc(25% - .6em);
+  cursor: pointer;
+  background: transparent;
+  border: none;
+  padding: 0;
+  line-height: 1em;
+  transition: all .15s ease-in-out;
+  user-select: none;
+  -webkit-tap-highlight-color: transparent;
+  display: flex;
+  flex-wrap: wrap;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  flex-direction: column;
+  font-family: Work Sans,sans-serif;
+  border-radius: .75rem;
+  box-shadow: 0 .2em .7em rgba(0,0,0,.08);
+  background-color: var(--color00);
+  color: grey;
+}
+
+.actions-mob .btn-mobile-llamar {
+  margin: 0;
+  vertical-align: middle;
+  white-space: normal;
+  font-size: 13px;
+  box-sizing: border-box;
+  overflow: visible;
+  width: calc(25% - .6em);
+  cursor: pointer;
+  background: transparent;
+  border: none;
+  padding: 0;
+  line-height: 1em;
+  transition: all .15s ease-in-out;
+  user-select: none;
+  -webkit-tap-highlight-color: transparent;
+  display: flex;
+  flex-wrap: wrap;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  flex-direction: column;
+  font-family: Work Sans,sans-serif;
+  border-radius: .75rem;
+  box-shadow: 0 .2em .7em rgba(0,0,0,.08);
+  background-color: var(--color01);
+  color: var(--color00);
+}
+
+.actions-mob .btn-mobile-whatsapp {
+  margin: 0;
+  vertical-align: middle;
+  white-space: normal;
+  font-size: 13px;
+  box-sizing: border-box;
+  overflow: visible;
+  width: calc(25% - .6em);
+  cursor: pointer;
+  background: transparent;
+  border: none;
+  padding: 0;
+  line-height: 1em;
+  transition: all .15s ease-in-out;
+  user-select: none;
+  -webkit-tap-highlight-color: transparent;
+  display: flex;
+  flex-wrap: wrap;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  flex-direction: column;
+  font-family: Work Sans,sans-serif;
+  border-radius: .75rem;
+  box-shadow: 0 .2em .7em rgba(0,0,0,.08);
+  background-color: var(--color00);
+  background-image: linear-gradient(180deg,#60d66a 0,#20b038);
+  background-repeat: repeat-x;
+  color: #fff;  
+}
+
+.actions-mob svg {
+  white-space: normal;
+  cursor: pointer;
+  line-height: 1em;
+  -webkit-box-direction: normal;
+  font-family: Work Sans,sans-serif;
+  user-select: none;
+  -webkit-tap-highlight-color: transparent;
+  font-size: 1.9em;
+  color: var(--color01);
+  box-sizing: border-box;
+  height: 1em;
+  width: 1em;
+  fill: currentColor;
+  position: absolute;
+}
