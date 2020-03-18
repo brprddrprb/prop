@@ -298,3 +298,7 @@ footer .filter-display-area .display {
   color: var(--color06);
   box-sizing: border-box;
 }
+
+a {
+  text-decoration: none;
+}
