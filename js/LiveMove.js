@@ -15,7 +15,7 @@
   let all = {};
   // let name = () => parseInt(Math.random()*1000).toString()
     /* eslint-disable-next-line */
-    export function go (el, property, state, e) {
+    function go (el, property, state, e) {
       let name = el.getAttribute('name');
       all[name] = {... template};
       all[name].el = el;
