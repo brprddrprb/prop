@@ -2,6 +2,7 @@ const urlParams = new URLSearchParams(window.location.search)
 const id = urlParams.get('id')
 const propiedad = propiedades.find( propiedad => propiedad.id == id )
 const galeria = document.querySelector('.gallery-content')
+const iconos = document.querySelector('.tags')
 
 // Agregar imagenes a galeria
 function agregarImagenesAgaleria() {
@@ -49,6 +50,20 @@ btnGalleryPrev.addEventListener('click', goToPrev)
 const elements = Array.from(document.getElementsByName('gallery'))
 elements[0].classList.add("active")
 
+agregarEtiquetas(propiedad)
+
+// Tags
+function agregarEtiquetas(propiedad) {
+  let markup = ''
+  propiedad.etiquetas.forEach(etiqueta => {
+    markup += `<li>
+                <div class="content prop">
+                  <span class="value">${etiqueta}</span>
+                </div>
+              </li>`
+    iconos.innerHTML = markup
+  });
+}
 
 function goToPrev() {
   const max =  elements.length - 1
