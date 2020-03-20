@@ -354,3 +354,7 @@ button.btn-cancel-mobile span.icon {
   user-select: none;
   -webkit-tap-highlight-color: transparent;
 }
+
+.list-properties a {
+  width: 100%;
+}
