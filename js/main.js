@@ -19,6 +19,7 @@ propiedades.forEach(propiedad => {
               <div class="tags">
                 <span class="tag">797 m² Total</span>
               </div>
+              <h4>${propiedad.vendido ? 'VENDIDO' : ''}</h4>
             </div>
           </div>
         </div>
