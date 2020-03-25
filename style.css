@@ -180,3 +180,56 @@ body > header h1 span {
   width: 100%;
   height: auto;
 }
+
+
+button.btn-cancel-mobile {
+  -webkit-box-direction: normal;
+  vertical-align: middle;
+  white-space: normal;
+  box-sizing: border-box;
+  overflow: visible;
+  width: auto;
+  cursor: pointer;
+  background: transparent;
+  border: none;
+  line-height: 1em;
+  transition: all .15s ease-in-out;
+  user-select: none;
+  -webkit-tap-highlight-color: transparent;
+  padding: .5em;
+  font-size: 1.2em;
+  display: flex;
+  flex-wrap: wrap;
+  -webkit-box-pack: center;
+  justify-content: center;
+  color: var(--color01);
+  background-color: var(--color00);
+  border-radius: 2em;
+  margin: 0 .25em;
+  text-transform: uppercase;
+  box-shadow: 0 .1em .3em rgba(0,0,0,.08);
+  position: inherit;
+  left: .25em;
+  top: .25em;
+  z-index: 3000;
+}
+
+button.btn-cancel-mobile span.icon {
+  -webkit-font-smoothing: antialiased;
+  -webkit-box-direction: normal;
+  white-space: normal;
+  cursor: pointer;
+  line-height: 1em;
+  font-size: 1.2em;
+  color: var(--color01);
+  text-transform: uppercase;
+  box-sizing: border-box;
+  margin: 0;
+  display: flex;
+  align-self: center;
+  position: relative;
+  height: 1em;
+  width: 1em;
+  user-select: none;
+  -webkit-tap-highlight-color: transparent;
+}
