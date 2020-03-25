@@ -1,0 +1,23 @@
+[
+    {
+      "id": 1,
+      "localidad": "Villa Bosch",
+      "partido": "Tres de Febrero",
+      "imagen": "img/propiedades/001/casa.jose.01.jpg",
+      "direccion": "Direccion 123"
+    },
+    {
+      "id": 2,
+      "localidad": "Palomar",
+      "partido": "Ciudad Jardin",
+      "imagen": "img/propiedades/001/casa.jose.02.jpg",
+      "direccion": "Direccion 123"
+    },
+    {
+      "id": 3,
+      "localidad": "San Martin",
+      "partido": "Villa Bonich",
+      "imagen": "img/propiedades/001/casa.jose.03.jpg",
+      "direccion": "Direccion 123"
+    }
+]
