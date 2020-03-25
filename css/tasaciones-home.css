@@ -1,0 +1,248 @@
+.tasaciones {
+  color: var(--color06);
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
+  max-width: 1440px;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  -webkit-box-align: center;
+  align-items: center;
+  align-content: center;
+  overflow: hidden;
+  position: relative;
+  height: auto;
+  margin: 0;
+}
+
+.tasaciones-img {
+  color: var(--color06);
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
+  margin: 0;
+  overflow: hidden;
+  width: 100%;
+  padding: 0;
+  position: relative;
+}
+
+.tasaciones-img img {
+  font-family: Work Sans,sans-serif;
+  color: var(--color06);
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
+  max-width: 100%;
+  min-height: 100%;
+  min-width: 100%;
+  height: auto;
+  width: auto;
+  top: -100%;
+  bottom: -100%;
+  left: -100%;
+  right: -100%;
+  margin: auto;
+  overflow: hidden!important;
+}
+
+.tasaciones-contenido {
+  color: var(--color06);
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  -webkit-box-pack: center;
+  -webkit-box-align: center;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  flex-direction: column;
+  height: auto;
+  background-color: var(--color00);
+  margin: -1.5em .75em 0;
+  padding: 2.25em 1.125em 1.5em;
+  border-radius: .75rem;
+  z-index: 20;
+}
+
+.tasaciones h4 {
+  -webkit-font-smoothing: antialiased;
+  text-align: center;
+  -webkit-box-direction: normal;
+  box-sizing: border-box;
+  margin: 0;
+  text-transform: uppercase;
+  color: var(--color07);
+  font-weight: 400;
+  font-size: 1em;
+  line-height: 1em;
+  letter-spacing: .1em;
+  padding-bottom: .25em;
+}
+
+.tasaciones h3 {
+  -webkit-font-smoothing: antialiased;
+  text-align: center;
+  -webkit-box-direction: normal;
+  box-sizing: border-box;
+  margin: 0;
+  color: var(--color01);
+  font-weight: 600;
+  font-size: 1.75em;
+  line-height: 1em;
+  padding-bottom: .75em;
+}
+
+.tasaciones p {
+  color: var(--color06);
+  -webkit-font-smoothing: antialiased;
+  text-align: center;
+  -webkit-box-direction: normal;
+  box-sizing: border-box;
+  margin: 0;
+  margin-bottom: .75em;
+}
+
+.tasaciones-btn {
+  -webkit-font-smoothing: antialiased;
+  -webkit-box-direction: normal;
+  vertical-align: middle;
+  white-space: normal;
+  box-sizing: border-box;
+  overflow: visible;
+  display: flex;
+  flex-wrap: wrap;
+  cursor: pointer;
+  background: transparent;
+  border: none;
+  line-height: 1em;
+  transition: all .15s ease-in-out;
+  user-select: none;
+  -webkit-tap-highlight-color: transparent;
+  width: 100%;
+  padding: 1em;
+  -webkit-box-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  align-items: center;
+  border-radius: .75rem;
+  font-weight: 500;
+  letter-spacing: .025em;
+  text-align: left;
+  background-color: #fff;
+  color: var(--color01);
+  box-shadow: 0 .2em .7em rgba(0,0,0,.08);
+  font-size: 1.15em;
+  margin: .75em 0;
+}
+
+.tasaciones span {
+  -webkit-font-smoothing: antialiased;
+  -webkit-box-direction: normal;
+  white-space: normal;
+  cursor: pointer;
+  line-height: 1em;
+  font-weight: 500;
+  letter-spacing: .025em;
+  text-align: left;
+  color: var(--color01);
+  box-sizing: border-box;
+  font-family: Work Sans,sans-serif;
+  display: flex;
+  position: relative;
+  height: 1em;
+  width: 1em;
+  user-select: none;
+  -webkit-tap-highlight-color: transparent;
+  margin: 0 .6em 0 0;
+  align-self: flex-start;
+  font-size: 1.6em;
+}
+
+.tasaciones svg {
+  -webkit-font-smoothing: antialiased;
+  -webkit-box-direction: normal;
+  white-space: normal;
+  cursor: pointer;
+  line-height: 1em;
+  font-weight: 500;
+  letter-spacing: .025em;
+  text-align: left;
+  color: var(--color01);
+  font-family: Work Sans,sans-serif;
+  user-select: none;
+  -webkit-tap-highlight-color: transparent;
+  font-size: 1.6em;
+  box-sizing: border-box;
+  height: 1em;
+  width: 1em;
+  fill: currentColor;
+  position: absolute;
+}
+
+.tasaciones h5::before, h5::after {
+  content: "";
+  display: inline-block;
+  width: 50%;
+  margin: 0 1em 0 -55%;
+  vertical-align: middle;
+  border-bottom: 1px solid;
+}
+
+.tasaciones h5 {
+  -webkit-font-smoothing: antialiased;
+  -webkit-box-direction: normal;
+  box-sizing: border-box;
+  width: 100%;
+  margin: .4em auto;
+  overflow: hidden;
+  text-align: center;
+  font-weight: 400;
+  font-size: .85em;
+  letter-spacing: .12em;
+  color: var(--color05);
+  text-transform: uppercase;
+  padding: 0 .25em;
+}
+
+.tasaciones h5::after {
+  margin: 0 -55% 0 1em;
+}
+
+.tasaciones-whatsapp {
+  -webkit-font-smoothing: antialiased;
+  -webkit-box-direction: normal;
+  vertical-align: middle;
+  white-space: normal;
+  box-sizing: border-box;
+  overflow: visible;
+  display: flex;
+  flex-wrap: wrap;
+  cursor: pointer;
+  background: transparent;
+  border: none;
+  line-height: 1em;
+  transition: all .15s ease-in-out;
+  user-select: none;
+  -webkit-tap-highlight-color: transparent;
+  width: 100%;
+  padding: 1em;
+  -webkit-box-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  align-items: center;
+  border-radius: .75rem;
+  font-weight: 500;
+  letter-spacing: .025em;
+  text-align: left;
+  background-color: #fff;
+  box-shadow: 0 .2em .7em rgba(0,0,0,.08);
+  background-image: linear-gradient(180deg,#60d66a 0,#20b038);
+  background-repeat: repeat-x;
+  color: #fff;
+  font-size: 1.15em;
+  margin: .75em 0;
+  margin-bottom: 0;
+}
