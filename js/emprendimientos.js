@@ -9,6 +9,7 @@ function init() {
 
       propiedades.forEach(propiedad => {
         markup = `
+        <a href="emprendimiento.html?id=${propiedad.id}">
       <div data-v-9e3e1fba="" class="item cols-1 add">
       <div data-v-114ae90b="" data-v-29e75895="" class="cardArea default small" model="responsive"
         data-v-9e3e1fba="">
@@ -46,6 +47,7 @@ C15.3,11.2,13.9,12.7,12,12.7z M12,7.5c-1,0-1.9,0.8-1.9,1.9c0,1,0.8,1.8,1.9,1.9c1
         </div>
       </div>
     </div>
+    </a>
       `
       listadoPropiedades.innerHTML += markup
       });
