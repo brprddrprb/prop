@@ -86,7 +86,6 @@ body {
   flex-wrap: wrap;
   width: 100%;
   background-size: contain!important;
-  background: url(/img/home-a-mob@2x.jpg) repeat-x transparent;
 }
 
 body > header {
