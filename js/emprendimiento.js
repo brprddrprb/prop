@@ -16,6 +16,12 @@ function main() {
       // Set address
       document.querySelector('.titleArea h4').innerHTML += emprendimiento.localidad + ', ' + emprendimiento.partido
                                                             + '<br>' + emprendimiento.direccion
+
+      // Set type
+      document.querySelector('.type > div:nth-child(1)').innerHTML += emprendimiento.tipo
+
+      // Set state
+      document.querySelector('.prices > div:nth-child(1)').innerHTML += emprendimiento.estado
     })
 }
 
