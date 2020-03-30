@@ -23,6 +23,9 @@ function main() {
       // Set state
       document.querySelector('.prices > div:nth-child(1)').innerHTML += emprendimiento.estado
 
+      // Set Description
+      document.querySelector('.des').innerHTML += emprendimiento.descripcion
+
       // Set atras
       document.querySelector('div.buttonsContent:nth-child(2) > button:nth-child(1)')
         .addEventListener('click', function() { document.location.href = 'emprendimientos.html' })
