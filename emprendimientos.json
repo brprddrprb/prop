@@ -1,6 +1,7 @@
 [
     {
       "id": 1,
+      "nombre": "Emprendimiento 01",
       "localidad": "Villa Bosch",
       "partido": "Tres de Febrero",
       "imagen": "img/propiedades/001/casa.jose.01.jpg",
@@ -8,6 +9,7 @@
     },
     {
       "id": 2,
+      "nombre": "Emprendimiento 02",
       "localidad": "Palomar",
       "partido": "Ciudad Jardin",
       "imagen": "img/propiedades/001/casa.jose.02.jpg",
@@ -15,6 +17,7 @@
     },
     {
       "id": 3,
+      "nombre": "Emprendimiento 03",
       "localidad": "San Martin",
       "partido": "Villa Bonich",
       "imagen": "img/propiedades/001/casa.jose.03.jpg",
