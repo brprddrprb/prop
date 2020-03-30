@@ -22,6 +22,22 @@ function main() {
 
       // Set state
       document.querySelector('.prices > div:nth-child(1)').innerHTML += emprendimiento.estado
+
+      // Set atras
+      document.querySelector('div.buttonsContent:nth-child(2) > button:nth-child(1)')
+        .addEventListener('click', function() { document.location.href = 'emprendimientos.html' })
+      
+      // Set email
+      document.querySelector('div.buttonsContent:nth-child(2) > button:nth-child(2)')
+        .addEventListener('click', function() { document.location.href = 'mailto: ariel.sauret@gmail.com' })
+
+      // Set whatsapp
+      document.querySelector('button.btnWhatsapp:nth-child(4)').addEventListener('click',
+        function() { document.location.href = 'https://wa.me/541158430937' })
+
+      // Set call btn
+      document.querySelector('button.btnCall:nth-child(3)').addEventListener('click',
+        function() { document.location.href = 'tel:+541158430937' })
     })
 }
 
