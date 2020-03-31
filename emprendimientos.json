@@ -1,35 +1,61 @@
 [
-    {
-      "id": 1,
-      "nombre": "Emprendimiento 01",
-      "tipo": "Edificio",
-      "estado": "construccion terminada",
-      "localidad": "Villa Bosch",
-      "partido": "Tres de Febrero",
-      "imagen": "img/propiedades/001/casa.jose.01.jpg",
-      "direccion": "Direccion 123",
-      "descripcion": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Praesentium, porro? Debitis rerum, error totam aut recusandae delectus dolor soluta ipsa sapiente eaque, fugit aspernatur hic eum eveniet, id quae laudantium."
-    },
-    {
-      "id": 2,
-      "nombre": "Emprendimiento 02",
-      "tipo": "Barrio Privado",
-      "estado": "en construccion",
-      "localidad": "Palomar",
-      "partido": "Ciudad Jardin",
-      "imagen": "img/propiedades/001/casa.jose.02.jpg",
-      "direccion": "Direccion 123",
-      "descripcion": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Praesentium, porro? Debitis rerum, error totam aut recusandae delectus dolor soluta ipsa sapiente eaque, fugit aspernatur hic eum eveniet, id quae laudantium."
-    },
-    {
-      "id": 3,
-      "nombre": "Emprendimiento 03",
-      "tipo": "Condominio",
-      "estado": "construccion terminada",
-      "localidad": "San Martin",
-      "partido": "Villa Bonich",
-      "imagen": "img/propiedades/001/casa.jose.03.jpg",
-      "direccion": "Direccion 123",
-      "descripcion": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Praesentium, porro? Debitis rerum, error totam aut recusandae delectus dolor soluta ipsa sapiente eaque, fugit aspernatur hic eum eveniet, id quae laudantium."
-    }
+  {
+    "id": 1,
+    "nombre": "Emprendimiento 01",
+    "tipo": "Edificio",
+    "estado": "construccion terminada",
+    "localidad": "Villa Bosch",
+    "partido": "Tres de Febrero",
+    "imagen": "img/propiedades/001/casa.jose.01.jpg",
+    "direccion": "Direccion 123",
+    "descripcion": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Praesentium, porro? Debitis rerum, error totam aut recusandae delectus dolor soluta ipsa sapiente eaque, fugit aspernatur hic eum eveniet, id quae laudantium.",
+    "tags": [
+      {
+        "icon": "cochera",
+        "valueTag": "",
+        "value": "unidades",
+        "description": "Disponibles"
+      },
+      {
+        "icon": "",
+        "valueTag": 4,
+        "value": "unidades",
+        "description": "Disponibles"
+      },
+      {
+        "icon": "parrilla",
+        "valueTag": "",
+        "value": "Parrilla",
+        "description": ""
+      },
+      {
+        "icon": "seguridad",
+        "valueTag": "",
+        "value": "Seguridad",
+        "description": "24 hs"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "nombre": "Emprendimiento 02",
+    "tipo": "Barrio Privado",
+    "estado": "en construccion",
+    "localidad": "Palomar",
+    "partido": "Ciudad Jardin",
+    "imagen": "img/propiedades/001/casa.jose.02.jpg",
+    "direccion": "Direccion 123",
+    "descripcion": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Praesentium, porro? Debitis rerum, error totam aut recusandae delectus dolor soluta ipsa sapiente eaque, fugit aspernatur hic eum eveniet, id quae laudantium."
+  },
+  {
+    "id": 3,
+    "nombre": "Emprendimiento 03",
+    "tipo": "Condominio",
+    "estado": "construccion terminada",
+    "localidad": "San Martin",
+    "partido": "Villa Bonich",
+    "imagen": "img/propiedades/001/casa.jose.03.jpg",
+    "direccion": "Direccion 123",
+    "descripcion": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Praesentium, porro? Debitis rerum, error totam aut recusandae delectus dolor soluta ipsa sapiente eaque, fugit aspernatur hic eum eveniet, id quae laudantium."
+  }
 ]
