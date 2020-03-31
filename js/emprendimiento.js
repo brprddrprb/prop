@@ -63,7 +63,6 @@ function addTags(tags) {
   const tagsDev = document.querySelector('ul.tags.dev')
   let markup = ''
   tags.forEach(tag => {
-  console.log(iconos[tag.icon])
   markup = `
       <li data-v-7f9ee979="">
       <div data-v-2c0f8a5b="" data-v-7f9ee979="" class="content dev" style="display: flex;">
