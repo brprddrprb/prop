@@ -44,6 +44,8 @@ function main() {
     })
 }
 
+
+
 const detalle = document.querySelector('.des')
 document.querySelector('button.input')
   .addEventListener('click', toggleDescription)
