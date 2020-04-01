@@ -15,7 +15,7 @@ function init() {
         data-v-9e3e1fba="">
         <div data-v-114ae90b="" class="cardContainer">
           <div data-v-114ae90b="" class="display"><img data-v-114ae90b=""
-              src=${emprendimiento.imagen}
+              src=${emprendimiento.galeria[0]}
               alt="Deheza 1670"></div>
           <div data-v-114ae90b="" class="info">
             <h4 data-v-114ae90b=""><span data-v-114ae90b="" title="Ubicación" class="icon"><svg
