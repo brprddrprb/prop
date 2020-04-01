@@ -1,6 +1,13 @@
 const urlParams = new URLSearchParams(window.location.search)
 const id = urlParams.get('id')
 
+const btnGalleryNext = document.querySelector('button.control:nth-child(4)');
+const btnGalleryPrev = document.querySelector('button.control:nth-child(3)');
+const elements = Array.from(document.getElementsByName('gallery'))
+
+btnGalleryNext.addEventListener('click', goToNext)
+btnGalleryPrev.addEventListener('click', goToPrev)
+
 main()
 
 function main() {
@@ -45,6 +52,49 @@ function main() {
 }
 
 
+function goToPrev() {
+  const max =  elements.length - 1
+
+  let currentPos = elements.findIndex(x => x.classList.contains('active'))
+  if (currentPos == -1) currentPos = 0
+  const previousPos = (currentPos == 0) ? max : currentPos - 1
+  const followingPos = (currentPos == max) ? 0 : currentPos + 1
+
+  const previous = elements[previousPos],
+        current = elements[currentPos],
+        following = elements[followingPos]
+
+  // previous
+  previous.classList.remove('prepared', 'before', 'active')
+  // current
+  current.classList.add('before')
+  current.classList.remove('prepared', 'active')
+  // folowing
+  following.classList.add('active')
+  following.classList.remove('prepared', 'after')
+}
+
+function goToNext() {
+  const max =  elements.length - 1
+
+  let currentPos = elements.findIndex(x => x.classList.contains('active'))
+  if (currentPos == -1) currentPos = 0
+  const previousPos = (currentPos == 0) ? max : currentPos - 1
+  const followingPos = (currentPos == max) ? 0 : currentPos + 1
+
+  const previous = elements[previousPos],
+        current = elements[currentPos],
+        following = elements[followingPos]
+
+  // folowing
+  following.classList.remove('prepared', 'after', 'active')
+  // current
+  current.classList.add('after')
+  current.classList.remove('prepared', 'active')
+  // previous
+  previous.classList.add('active')
+  previous.classList.remove('prepared', 'before')
+}
 
 const detalle = document.querySelector('.des')
 document.querySelector('button.input')

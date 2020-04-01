@@ -1,38 +1,26 @@
 [
   {
     "id": 1,
-    "nombre": "Emprendimiento 01",
+    "nombre": "Live & Work",
     "tipo": "Edificio",
-    "estado": "construccion terminada",
-    "localidad": "Villa Bosch",
-    "partido": "Tres de Febrero",
+    "estado": "Construccion",
+    "localidad": "Belgrano",
+    "partido": "Capital Federal",
     "imagen": "img/propiedades/001/casa.jose.01.jpg",
-    "direccion": "Direccion 123",
-    "descripcion": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Praesentium, porro? Debitis rerum, error totam aut recusandae delectus dolor soluta ipsa sapiente eaque, fugit aspernatur hic eum eveniet, id quae laudantium.",
+    "direccion": "Cuba 2284",
+    "descripcion": "Unidades de 1 y 2 ambientes, posesión  11/20. El edificio se diseñó teniendo en cuenta la estética racionalista con la que el ESTUDIO realiza sus proyectos.<br>El edificio contará con espacio de coworking y sector de lavadero.- Se adjunta especificaciones de cada unidad.-<br>Las unidades de 2 ambientes pasantes con caldera dual y pre-instalación de split.<br>Las unidades restantes de 2 ambientes y las de un ambiente con termo-tanque de alta recuperación y equipos instalados.<br>La jerarquización del acceso por medio de la importancia en el diseño y la utilización de los materiales modernos para el espacio realzan la idea estética moderna de la cual estamos planteando para este proyecto. El Emprendimiento se desarrolla  en el Barrio de Belgrano, próximo a la Estación de Tren Belgrano C y a pocas cuadras de la línea de Subte D, Estación Juramento. A sólo dos cuadras de la Av. Cabildo. <br>Los materiales y especificaciones del plano están sujetos a modificaciones arquitectónicas que se requieran por ley. Los planos no siempre están representados en escala. Cualquier mueble, electrodoméstico o artículo de decorador representado aquí se muestra únicamente con fines ilustrativos y no está incluido en la compra de la unidad. Las dimensiones indicadas de las unidades incluyen muros y parte de los muros medianeros, que varían con las dimensiones finales del agrimensor. Todas las dimensiones son aproximadas y quedan sujetas a cambios. <br> <br>:: Zona Belgrano, Zona D'Aria  ::  4005.8005  ::  www.daria.com.ar",
     "tags": [
       {
-        "icon": "cochera",
-        "valueTag": "",
-        "value": "unidades",
-        "description": "Disponibles"
-      },
-      {
         "icon": "",
-        "valueTag": 4,
-        "value": "unidades",
+        "valueTag": "7",
+        "value": "Unidades",
         "description": "Disponibles"
       },
       {
-        "icon": "parrilla",
+        "icon": "lavadero",
         "valueTag": "",
-        "value": "Parrilla",
+        "value": "Lavadero",
         "description": ""
-      },
-      {
-        "icon": "seguridad",
-        "valueTag": "",
-        "value": "Seguridad",
-        "description": "24 hs"
       }
     ]
   },
