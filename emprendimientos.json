@@ -47,19 +47,16 @@
         "description": "Disponibles"
       }
     ],
-    "galeria":[
-      "https://static.tokkobroker.com/dev_pictures/87209188015523430289033763314668490316068815055540571727170319809096250580916.jpg"
+    "galeria": [
+      "https://static.tokkobroker.com/dev_pictures/87209188015523430289033763314668490316068815055540571727170319809096250580916.jpg",
+      "https://static.tokkobroker.com/dev_pictures/30422274745441776293365091254576987835580879399698876174504839736570767668766.jpg",
+      "https://static.tokkobroker.com/dev_pictures/98757027209711660292329445545543901709737220092840515921496646036913625936228.jpg",
+      "https://static.tokkobroker.com/dev_pictures/54602605594578425882145948219501378208533889865137211522773264089448211092707.jpg",
+      "https://static.tokkobroker.com/dev_pictures/6393136467437330295202710484957727334813970156150858137238198511613434589330.jpg",
+      "https://static.tokkobroker.com/dev_pictures/77789446452180600274555451743113666598502956530953003106330232244356616628020.jpg",
+      "https://static.tokkobroker.com/dev_pictures/72274283441239874969596688680435699400508110213466392835609392005246501441239.jpg",
+      "https://static.tokkobroker.com/dev_pictures/47455194923336048970867171604922391475968709729928414632116369512570244659931.jpg",
+      "https://static.tokkobroker.com/dev_pictures/3520595922940507680927402963135516180545912807913997245176257134419173998808.jpg"
     ]
-  },
-  {
-    "id": 3,
-    "nombre": "Emprendimiento 03",
-    "tipo": "Condominio",
-    "estado": "construccion terminada",
-    "localidad": "San Martin",
-    "partido": "Villa Bonich",
-    "imagen": "img/propiedades/001/casa.jose.03.jpg",
-    "direccion": "Direccion 123",
-    "descripcion": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Praesentium, porro? Debitis rerum, error totam aut recusandae delectus dolor soluta ipsa sapiente eaque, fugit aspernatur hic eum eveniet, id quae laudantium."
   }
 ]
