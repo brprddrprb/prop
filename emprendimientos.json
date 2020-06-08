@@ -1,0 +1,101 @@
+[
+  {
+    "id": 1,
+    "nombre": "Live & Work",
+    "tipo": "Edificio",
+    "estado": "Construccion",
+    "localidad": "Belgrano",
+    "partido": "Capital Federal",
+    "imagen": "https://static.tokkobroker.com/dev_pictures/79113855104600730006463826568269135712572891223627331943797269208174300854357.jpg",
+    "direccion": "Cuba 2284",
+    "descripcion": "Unidades de 1 y 2 ambientes, posesión  11/20. El edificio se diseñó teniendo en cuenta la estética racionalista con la que el ESTUDIO realiza sus proyectos.<br>El edificio contará con espacio de coworking y sector de lavadero.- Se adjunta especificaciones de cada unidad.-<br>Las unidades de 2 ambientes pasantes con caldera dual y pre-instalación de split.<br>Las unidades restantes de 2 ambientes y las de un ambiente con termo-tanque de alta recuperación y equipos instalados.<br>La jerarquización del acceso por medio de la importancia en el diseño y la utilización de los materiales modernos para el espacio realzan la idea estética moderna de la cual estamos planteando para este proyecto. El Emprendimiento se desarrolla  en el Barrio de Belgrano, próximo a la Estación de Tren Belgrano C y a pocas cuadras de la línea de Subte D, Estación Juramento. A sólo dos cuadras de la Av. Cabildo. <br>Los materiales y especificaciones del plano están sujetos a modificaciones arquitectónicas que se requieran por ley. Los planos no siempre están representados en escala. Cualquier mueble, electrodoméstico o artículo de decorador representado aquí se muestra únicamente con fines ilustrativos y no está incluido en la compra de la unidad. Las dimensiones indicadas de las unidades incluyen muros y parte de los muros medianeros, que varían con las dimensiones finales del agrimensor. Todas las dimensiones son aproximadas y quedan sujetas a cambios. <br> <br>:: Zona Belgrano, Zona D'Aria  ::  4005.8005  ::  www.daria.com.ar",
+    "tags": [
+      {
+        "icon": "",
+        "valueTag": "7",
+        "value": "Unidades",
+        "description": "Disponibles"
+      },
+      {
+        "icon": "lavadero",
+        "valueTag": "",
+        "value": "Lavadero",
+        "description": ""
+      }
+    ],
+    "galeria": [
+      "https://static.tokkobroker.com/dev_pictures/21381011689760259487964822477544595673928926998380845319289544513431184474480.jpg",
+      "https://static.tokkobroker.com/dev_pictures/108784474918855937709091236538780025944173562098978542145363236720438402788746.jpg",
+      "https://static.tokkobroker.com/dev_pictures/368591121141187863165201327268921517639668011459756964444728972819200015905.jpg"
+    ]
+  },
+  {
+    "id": 2,
+    "nombre": "C. Rivadavia 2306",
+    "tipo": "Edificio",
+    "estado": "construccion",
+    "localidad": "Nuñez",
+    "partido": "Capital Federal",
+    "imagen": "img/propiedades/001/casa.jose.02.jpg",
+    "direccion": "Comodoro M. Rivadavia Esq. Vuelta de Obligado",
+    "descripcion": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Praesentium, porro? Debitis rerum, error totam aut recusandae delectus dolor soluta ipsa sapiente eaque, fugit aspernatur hic eum eveniet, id quae laudantium.",
+    "tags": [
+      {
+        "icon": "",
+        "valueTag": "4",
+        "value": "Unidades",
+        "description": "Disponibles"
+      }
+    ],
+    "galeria": [
+      "https://static.tokkobroker.com/dev_pictures/87209188015523430289033763314668490316068815055540571727170319809096250580916.jpg",
+      "https://static.tokkobroker.com/dev_pictures/30422274745441776293365091254576987835580879399698876174504839736570767668766.jpg",
+      "https://static.tokkobroker.com/dev_pictures/98757027209711660292329445545543901709737220092840515921496646036913625936228.jpg",
+      "https://static.tokkobroker.com/dev_pictures/54602605594578425882145948219501378208533889865137211522773264089448211092707.jpg",
+      "https://static.tokkobroker.com/dev_pictures/6393136467437330295202710484957727334813970156150858137238198511613434589330.jpg",
+      "https://static.tokkobroker.com/dev_pictures/77789446452180600274555451743113666598502956530953003106330232244356616628020.jpg",
+      "https://static.tokkobroker.com/dev_pictures/72274283441239874969596688680435699400508110213466392835609392005246501441239.jpg",
+      "https://static.tokkobroker.com/dev_pictures/47455194923336048970867171604922391475968709729928414632116369512570244659931.jpg",
+      "https://static.tokkobroker.com/dev_pictures/3520595922940507680927402963135516180545912807913997245176257134419173998808.jpg"
+    ]
+  },
+  {
+    "id": 3,
+    "nombre": "Tempus Martínez",
+    "tipo": "Edificio",
+    "estado": "Construccion",
+    "localidad": "Martinez",
+    "partido": "San Isidro",
+    "direccion": "Av. Libertador 13.464",
+    "descripcion": "Edificio de categoría ubicado sobre Av Libertador en Martínez, con 7 exclusivas unidades en semi pisos de 4 ambientes.  El edificio contará con 15 cocheras cubiertas, 9 de las cuales son simples, y 3 son dobles, y bauleras de buen tamaño. Todas las unidades contarán con balcón terraza con parrilla individual.<br><br>La más alta calidad constructiva, con detalles de alta gama, como portero visor digitalizado, cámaras de seguridad con circuito cerrado de TV, carpinterías de aluminio con DVH, muebles de cocina completos con bajo mesadas y alacenas, mesadas de Silestone o similar, placares con frentes e interiores completos, herrajes de puertas interiores en bronce satinado.<br><br>Hermosa zona con añeja arboleda y residencias con jardines, cerca del río.",
+    "tags": [
+      {
+        "icon": "",
+        "valueTag": "5",
+        "value": "Unidades",
+        "descripcion": "Disponibles"
+      },
+      {
+        "icon": "cochera",
+        "valueTag": "",
+        "value": "Cochera",
+        "descripcion": "cubierta"
+      },
+      {
+        "icon": "parrilla",
+        "valueTag": "",
+        "value": "Parrilla",
+        "descripcion": ""
+      }
+    ],
+    "galeria": [
+      "https://static.tokkobroker.com/dev_pictures/78326156106108427417292573800340571664376217967819687068342772261764835552343.jpg",
+      "https://static.tokkobroker.com/dev_pictures/37859378084200329587882164710735351737218963230783115443664180726177723014961.jpg",
+      "https://static.tokkobroker.com/dev_pictures/113582617441711357344550221331544930769244527299742068328127159462370795722924.jpg",
+      "https://static.tokkobroker.com/dev_pictures/73536676832287334854639402689101464956307718630457924077955228466546338551143.jpg",
+      "https://static.tokkobroker.com/dev_pictures/1086734266640524521692533889386354223427665068155741586220475045670522025046.jpg",
+      "https://static.tokkobroker.com/dev_pictures/93664531680105981451000664438497683517737680823581434052539418965312278717753.jpg",
+      "https://static.tokkobroker.com/dev_pictures/82336846231964634075691247004224566336658830419866641751614843747511686461940.jpg"
+    ]
+  }
+]
