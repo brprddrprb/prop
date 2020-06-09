@@ -1,5 +1,5 @@
-const urlParams = new URLSearchParams(window.location.search)
-const id = urlParams.get('id')
+// const urlParams = new URLSearchParams(window.location.search)
+const id = new URLSearchParams(window.location.search).get('id');
 const propiedad = propiedades.find( propiedad => propiedad.id == id )
 const galeria = document.querySelector('.gallery-content')
 const iconos = document.querySelector('.tags')
