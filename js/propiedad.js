@@ -1,110 +1,111 @@
 // const urlParams = new URLSearchParams(window.location.search)
 const id = new URLSearchParams(window.location.search).get('id');
-const propiedad = propiedades.find( propiedad => propiedad.id == id )
-const galeria = document.querySelector('.gallery-content')
-const iconos = document.querySelector('.tags')
+const propiedad = propiedades.find(propiedad => propiedad.id == id);
+const galeria = document.querySelector('.gallery-content');
+const iconos = document.querySelector('.tags');
 
 // Agregar imagenes a galeria
 function agregarImagenesAgaleria() {
-  let markup = ''
-  propiedad.carousel.forEach( img => markup += `
+    let markup = '';
+    propiedad.carousel.forEach(img => markup += `
   <div name="gallery" class="item">
     <div class="image image-area adaptative scoped">
       <img src=${img} alt="">
     </div>
   </div>
-  `)
-  galeria.innerHTML = markup
+  `);
+    galeria.innerHTML = markup
 }
-agregarImagenesAgaleria()
+
+agregarImagenesAgaleria();
 
 // Setear texto de atributos propiedad
 function atrSetter(cssSelector, attr) {
-  document.querySelector(cssSelector).append(propiedad[attr])
+    document.querySelector(cssSelector).append(propiedad[attr])
 }
 
 // Precio
-atrSetter('.price', 'valor')
+atrSetter('.price', 'valor');
 
 // Direccion
-atrSetter('.title-area h2', 'direccion')
+atrSetter('.title-area h2', 'direccion');
 
 // Tipo de propiedad
-atrSetter('.property-type', 'tipo')
+atrSetter('.property-type', 'tipo');
 
 // Barrio
-atrSetter('.title-area > h4 > span:nth-child(2)', 'barrio')
+atrSetter('.title-area > h4 > span:nth-child(2)', 'barrio');
 
 // Zona
-atrSetter('.title-area > h4', 'zona')
+atrSetter('.title-area > h4', 'zona');
 
 // Descripcion
-atrSetter('.desc > div > main > p', 'descripcion')
+atrSetter('.desc > div > main > p', 'descripcion');
 
 // Galeria
 const btnGalleryNext = document.querySelector('.control-next-btn');
 const btnGalleryPrev = document.querySelector('.control-prev-btn');
-btnGalleryNext.addEventListener('click', goToNext)
-btnGalleryPrev.addEventListener('click', goToPrev)
+btnGalleryNext.addEventListener('click', goToNext);
+btnGalleryPrev.addEventListener('click', goToPrev);
 
-const elements = Array.from(document.getElementsByName('gallery'))
-elements[0].classList.add("active")
+const elements = Array.from(document.getElementsByName('gallery'));
+elements[0].classList.add("active");
 
-agregarEtiquetas(propiedad)
+agregarEtiquetas(propiedad);
 
 // Tags
 function agregarEtiquetas(propiedad) {
-  let markup = ''
-  propiedad.etiquetas.forEach(etiqueta => {
-    markup += `<li>
+    let markup = '';
+    propiedad.etiquetas.forEach(etiqueta => {
+        markup += `<li>
                 <div class="content prop">
                   <span class="value">${etiqueta}</span>
                 </div>
-              </li>`
-    iconos.innerHTML = markup
-  });
+              </li>`;
+        iconos.innerHTML = markup
+    });
 }
 
 function goToPrev() {
-  const max =  elements.length - 1
+    const max = elements.length - 1;
 
-  let currentPos = elements.findIndex(x => x.classList.contains('active'))
-  if (currentPos == -1) currentPos = 0
-  const previousPos = (currentPos == 0) ? max : currentPos - 1
-  const followingPos = (currentPos == max) ? 0 : currentPos + 1
+    let currentPos = elements.findIndex(x => x.classList.contains('active'));
+    if (currentPos == -1) currentPos = 0;
+    const previousPos = (currentPos == 0) ? max : currentPos - 1;
+    const followingPos = (currentPos == max) ? 0 : currentPos + 1;
 
-  const previous = elements[previousPos],
+    const previous = elements[previousPos],
         current = elements[currentPos],
-        following = elements[followingPos]
+        following = elements[followingPos];
 
-  // previous
-  previous.classList.remove('prepared', 'before', 'active')
-  // current
-  current.classList.add('before')
-  current.classList.remove('prepared', 'active')
-  // folowing
-  following.classList.add('active')
-  following.classList.remove('prepared', 'after')
+    // previous
+    previous.classList.remove('prepared', 'before', 'active');
+    // current
+    current.classList.add('before');
+    current.classList.remove('prepared', 'active');
+    // folowing
+    following.classList.add('active');
+    following.classList.remove('prepared', 'after')
 }
 
 function goToNext() {
-  const max =  elements.length - 1
+    const max = elements.length - 1;
 
-  let currentPos = elements.findIndex(x => x.classList.contains('active'))
-  if (currentPos == -1) currentPos = 0
-  const previousPos = (currentPos == 0) ? max : currentPos - 1
-  const followingPos = (currentPos == max) ? 0 : currentPos + 1
+    let currentPos = elements.findIndex(x => x.classList.contains('active'));
+    if (currentPos == -1) currentPos = 0;
+    const previousPos = (currentPos == 0) ? max : currentPos - 1;
+    const followingPos = (currentPos == max) ? 0 : currentPos + 1;
 
-  const previous = elements[previousPos],
+    const previous = elements[previousPos],
         current = elements[currentPos],
-        following = elements[followingPos]
+        following = elements[followingPos];
 
-  // folowing
-  following.classList.remove('prepared', 'after', 'active')
-  // current
-  current.classList.add('after')
-  current.classList.remove('prepared', 'active')
-  // previous
-  previous.classList.add('active')
-  previous.classList.remove('prepared', 'before')
+    // folowing
+    following.classList.remove('prepared', 'after', 'active');
+    // current
+    current.classList.add('after');
+    current.classList.remove('prepared', 'active');
+    // previous
+    previous.classList.add('active');
+    previous.classList.remove('prepared', 'before')
 }
