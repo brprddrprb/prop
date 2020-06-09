@@ -157,7 +157,7 @@
                     </button>
 
                     <!-- Email -->
-                    <button class="btn-mobile-atras">
+                    <button id="email" class="btn-mobile-atras">
                         <span>Email</span>
                     </button>
 
@@ -183,7 +183,21 @@
 <script src="js/propiedad.js"></script>
 <script>
     document.querySelector(".btn-mobile-whatsapp")
-      .addEventListener("click", () => window.location.href = 'https://wa.me/541158430937')
+        .addEventListener("click", () => {
+            let paginaUrl = `https://musing-goldwasser-11993c.netlify.app/pripiedad.html?id=${id}`;
+            let whatsappUrl = `https://wa.me/541158430937?text=Estoy%20interesado%20en%20esta%20publicación%20${paginaUrl}`;
+            window.open(whatsappUrl, '_blank').focus();
+        });
+    document.querySelector(".btn-mobile-llamar")
+        .addEventListener("click", () => {
+            let llamarUrl = 'tel:541158430937'
+            window.open(llamarUrl).focus();
+        })
+    document.querySelector("#email")
+        .addEventListener("click", () => {
+            let mailUrl = 'mailto:ariel.saurte@gmail.com'
+            window.open(mailUrl).focus();
+        })
 </script>
 </body>
 </html>
