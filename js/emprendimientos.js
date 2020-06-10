@@ -1,5 +1,5 @@
 function init() {
-  fetch('../emprendimientos.json')
+  fetch('emprendimientos.json')
     .then(function (res) {
       return res.json()
     })

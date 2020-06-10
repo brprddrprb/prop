@@ -6,7 +6,7 @@ const id = urlParams.get('id');
 
 
 const checkEmprendimientos = async () => {
-  let emprendimientoData = await fetch('../emprendimientos.json');
+  let emprendimientoData = await fetch('emprendimientos.json');
   let emprendimientoJSON = await emprendimientoData.json();
   return emprendimientoJSON[id - 1]
 };

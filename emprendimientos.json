@@ -97,5 +97,44 @@
       "https://static.tokkobroker.com/dev_pictures/93664531680105981451000664438497683517737680823581434052539418965312278717753.jpg",
       "https://static.tokkobroker.com/dev_pictures/82336846231964634075691247004224566336658830419866641751614843747511686461940.jpg"
     ]
+  },
+  {
+    "id": 4,
+    "nombre": "NILA - La Lucila",
+    "tipo": "Edificio",
+    "estado": "Construccion",
+    "localidad": "La Lucila",
+    "partido": "Vicente Lopez",
+    "direccion": "Av. Libertador 4052",
+    "descripcion": "Edificio de categoría ubicado sobre Av Libertador en Martínez, con 7 exclusivas unidades en semi pisos de 4 ambientes.  El edificio contará con 15 cocheras cubiertas, 9 de las cuales son simples, y 3 son dobles, y bauleras de buen tamaño. Todas las unidades contarán con balcón terraza con parrilla individual.<br><br>La más alta calidad constructiva, con detalles de alta gama, como portero visor digitalizado, cámaras de seguridad con circuito cerrado de TV, carpinterías de aluminio con DVH, muebles de cocina completos con bajo mesadas y alacenas, mesadas de Silestone o similar, placares con frentes e interiores completos, herrajes de puertas interiores en bronce satinado.<br><br>Hermosa zona con añeja arboleda y residencias con jardines, cerca del río.",
+    "tags": [
+      {
+        "icon": "",
+        "valueTag": "5",
+        "value": "Unidades",
+        "descripcion": "Disponibles"
+      },
+      {
+        "icon": "cochera",
+        "valueTag": "",
+        "value": "Cochera",
+        "descripcion": "cubierta"
+      },
+      {
+        "icon": "parrilla",
+        "valueTag": "",
+        "value": "Parrilla",
+        "descripcion": ""
+      }
+    ],
+    "galeria": [
+      "https://static.tokkobroker.com/dev_pictures/78326156106108427417292573800340571664376217967819687068342772261764835552343.jpg",
+      "https://static.tokkobroker.com/dev_pictures/37859378084200329587882164710735351737218963230783115443664180726177723014961.jpg",
+      "https://static.tokkobroker.com/dev_pictures/113582617441711357344550221331544930769244527299742068328127159462370795722924.jpg",
+      "https://static.tokkobroker.com/dev_pictures/73536676832287334854639402689101464956307718630457924077955228466546338551143.jpg",
+      "https://static.tokkobroker.com/dev_pictures/1086734266640524521692533889386354223427665068155741586220475045670522025046.jpg",
+      "https://static.tokkobroker.com/dev_pictures/93664531680105981451000664438497683517737680823581434052539418965312278717753.jpg",
+      "https://static.tokkobroker.com/dev_pictures/82336846231964634075691247004224566336658830419866641751614843747511686461940.jpg"
+    ]
   }
 ]
