@@ -53,7 +53,7 @@ const propiedades = [
       direccion: 'Null',
       barrio: 'Palomar',
       tipo: 'Casa',
-      valor: '200.000',
+      valor: '300.000',
       vendido: false,
       etiquetas: ['3 amb.', '2 bañ.', 'cochera', 'pileta'],
       descripcion: "Impecable casa. Cuenta con pileta y cochera, amplia cocina y comedor.",
