@@ -146,7 +146,7 @@ align-self: flex-start;
   position: absolute;
   transition: all 0.15s ease-in-out 0s;
   transform: translate(-157.5px, 0px);
-  width: 630px;
+  width: 1200px;
 }
 
 .item {
@@ -160,7 +160,6 @@ align-self: flex-start;
   align-items: stretch;
   -webkit-box-pack: center;
   justify-content: center;
-  width: 157.5px;
 }
 
 .active {
@@ -168,7 +167,22 @@ align-self: flex-start;
   -webkit-font-smoothing: antialiased;
   -webkit-box-direction: normal;
   box-sizing: border-box;
-  width: 157.5px;
+}
+
+.item, .active {
+  width: 300px;
+}
+
+@media screen and (max-width: 900px) {
+
+  .carousel-content {
+    width: 630px;
+  }
+
+  .item, .active {
+    width: 157.5px;
+  }
+
 }
 
 .card-area.default {
@@ -324,4 +338,10 @@ align-self: flex-start;
   width: 100%;
   height: 8em;
   background-image: linear-gradient(180deg,hsla(0,0%,94.9%,0) 0,#f2f2f2 60%);
+}
+
+@media screen and (min-width: 1024px) {
+  .carousel-area {
+    width: 95%;
+  }
 }
