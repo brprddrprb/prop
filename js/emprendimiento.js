@@ -119,7 +119,11 @@ function addGalleryImg(imgs, galleryContent) {
     let markup = '';
     imgs.forEach(img => {
         markup += `
-    <div data-v-583f8fa1="" name="gallery" class="item"><div data-v-0d283d01="" data-v-53ef937b="" class="image imageArea adaptative scoped" data-v-583f8fa1=""><img data-v-0d283d01="" src="${img}" alt="imagen de propiedad"></div></div>
+    <div data-v-583f8fa1="" name="gallery" class="item">
+        <div data-v-0d283d01="" data-v-53ef937b="" class="image imageArea adaptative scoped" data-v-583f8fa1="">
+            <img data-v-0d283d01="" src="${img}" alt="imagen de propiedad">
+        </div>
+    </div>
     `
     });
     galleryContent.innerHTML = markup
