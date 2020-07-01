@@ -1,14 +1,14 @@
 function init() {
-  fetch('emprendimientos.json')
-    .then(function (res) {
-      return res.json()
-    })
-    .then(function (emprendimientos) {
-      const listadoPropiedades = document.getElementsByName('listDevelopments')[0]
-      let markup = ''
+    fetch('emprendimientos.json')
+        .then(function (res) {
+            return res.json()
+        })
+        .then(function (emprendimientos) {
+            const listadoPropiedades = document.getElementsByName('listDevelopments')[0]
+            let markup = ''
 
-      emprendimientos.forEach(emprendimiento => {
-        markup = `
+            emprendimientos.forEach(emprendimiento => {
+                markup = `
         <a href="emprendimiento.html?id=${emprendimiento.id}">
       <div data-v-9e3e1fba="" class="item cols-1 add">
       <div data-v-114ae90b="" data-v-29e75895="" class="cardArea default small" model="responsive"
@@ -49,9 +49,9 @@ C15.3,11.2,13.9,12.7,12,12.7z M12,7.5c-1,0-1.9,0.8-1.9,1.9c0,1,0.8,1.8,1.9,1.9c1
     </div>
     </a>
       `
-      listadoPropiedades.innerHTML += markup
-      });
-    })
+                listadoPropiedades.innerHTML += markup
+            });
+        })
 }
 
 init()

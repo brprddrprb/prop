@@ -1,5 +1,5 @@
 const iconos = {
-  "cochera": `  <svg fill="currentColor" width="24" height="24" viewBox="0 0 24 24"
+    "cochera": `  <svg fill="currentColor" width="24" height="24" viewBox="0 0 24 24"
   class="icon__svg">
   <g>
     <g transform="translate(214.19 -44.206)">
@@ -19,7 +19,7 @@ const iconos = {
   </g>
   </svg>`,
 
-  "parrilla": `<svg width="24" height="24" viewBox="0 0 24 24" class="icon__svg">
+    "parrilla": `<svg width="24" height="24" viewBox="0 0 24 24" class="icon__svg">
   <g>
     <rect width="24" height="24" fill="none"></rect>
     <g transform="translate(-2053.896 -958.5)">
@@ -33,14 +33,14 @@ const iconos = {
   </g>
   </svg>`,
 
-  "star": `<svg width="24" height="24" viewBox="0 0 24 24" class="icon__svg">
+    "star": `<svg width="24" height="24" viewBox="0 0 24 24" class="icon__svg">
   <g>
     <path d="M1434.985,1759.76l1.093,3.143a.926.926,0,0,0,.857.622l3.326.068a.927.927,0,0,1,.541,1.666l-2.651,2.01a.927.927,0,0,0-.327,1.008l.963,3.185a.927.927,0,0,1-1.417,1.03l-2.731-1.9a.928.928,0,0,0-1.059,0l-2.731,1.9a.927.927,0,0,1-1.417-1.03l.963-3.185a.927.927,0,0,0-.327-1.008l-2.651-2.01a.927.927,0,0,1,.542-1.666l3.326-.068a.925.925,0,0,0,.857-.622l1.093-3.143A.927.927,0,0,1,1434.985,1759.76Z" transform="translate(-1422.048 -1754.137)" fill="currentColor"></path>
     <rect width="24" height="24" fill="none"></rect>
   </g>
   </svg>`,
 
-  "piscina": `<svg width="24" height="24" viewBox="0 0 24 24" class="icon__svg">
+    "piscina": `<svg width="24" height="24" viewBox="0 0 24 24" class="icon__svg">
   <g>
     <rect width="24" height="24" fill="none"></rect>
     <g transform="translate(0 0)">
@@ -62,7 +62,7 @@ const iconos = {
   </g>
   </svg>`,
 
-  "gimnasio": `<svg width="24" height="24" viewBox="0 0 24 24" class="icon__svg">
+    "gimnasio": `<svg width="24" height="24" viewBox="0 0 24 24" class="icon__svg">
   <g>
     <rect width="24" height="24" fill="none"></rect>
     <g transform="translate(1.419 -126.47)">
@@ -73,7 +73,7 @@ const iconos = {
   </g>
   </svg>`,
 
-  "solarium": `<svg width="24" height="24" viewBox="0 0 24 24" class="icon__svg">
+    "solarium": `<svg width="24" height="24" viewBox="0 0 24 24" class="icon__svg">
   <g>
     <rect width="24" height="24" fill="none"></rect>
     <g transform="translate(-951.789 -881.895)">
@@ -90,7 +90,7 @@ const iconos = {
   </g>
   </svg>`,
 
-  "seguridad": `<svg width="24" height="24" viewBox="0 0 24 24" class="icon__svg">
+    "seguridad": `<svg width="24" height="24" viewBox="0 0 24 24" class="icon__svg">
   <g>
     <rect width="24" height="24" fill="none"></rect>
     <g transform="translate(600.198 -620.062)">
@@ -100,5 +100,5 @@ const iconos = {
   </g>
   </svg>`,
 
-  "lavadero": `<svg width="24" height="24" viewBox="0 0 24 24" class="icon__svg"><g><g transform="translate(-418.878 -1487.332)"><path d="M438.169,1489.78H423.923a1.528,1.528,0,0,0-1.526,1.526v16.77a1.528,1.528,0,0,0,1.526,1.526h14.246a1.528,1.528,0,0,0,1.526-1.526v-16.77A1.528,1.528,0,0,0,438.169,1489.78Zm-14.755,1.526a.509.509,0,0,1,.509-.509h14.246a.509.509,0,0,1,.509.509v4.223H423.415Zm14.755,17.278H423.923a.509.509,0,0,1-.509-.509v-11.529h15.264v11.529A.509.509,0,0,1,438.169,1508.585Z" transform="translate(0)" fill="currentColor"></path><path d="M438.068,1512.6a5.046,5.046,0,1,0,5.045,5.045A5.051,5.051,0,0,0,438.068,1512.6Zm0,9.073a4.028,4.028,0,1,1,3.992-4.537h-1.9a.509.509,0,0,0,0,1.018h1.9A4.032,4.032,0,0,1,438.068,1521.674Z" transform="translate(-7.021 -15.08)" fill="currentColor"></path><path d="M434.378,1498.256h-4.847a.509.509,0,0,0,0,1.018h4.847a.509.509,0,1,0,0-1.018Z" transform="translate(-4.378 -5.601)" fill="currentColor"></path><circle cx="0.721" cy="0.721" r="0.721" transform="translate(436.021 1492.443)" fill="currentColor"></circle><circle cx="0.721" cy="0.721" r="0.721" transform="translate(433.986 1492.443)" fill="currentColor"></circle><circle cx="0.721" cy="0.721" r="0.721" transform="translate(431.951 1492.443)" fill="currentColor"></circle></g></g></svg>`
+    "lavadero": `<svg width="24" height="24" viewBox="0 0 24 24" class="icon__svg"><g><g transform="translate(-418.878 -1487.332)"><path d="M438.169,1489.78H423.923a1.528,1.528,0,0,0-1.526,1.526v16.77a1.528,1.528,0,0,0,1.526,1.526h14.246a1.528,1.528,0,0,0,1.526-1.526v-16.77A1.528,1.528,0,0,0,438.169,1489.78Zm-14.755,1.526a.509.509,0,0,1,.509-.509h14.246a.509.509,0,0,1,.509.509v4.223H423.415Zm14.755,17.278H423.923a.509.509,0,0,1-.509-.509v-11.529h15.264v11.529A.509.509,0,0,1,438.169,1508.585Z" transform="translate(0)" fill="currentColor"></path><path d="M438.068,1512.6a5.046,5.046,0,1,0,5.045,5.045A5.051,5.051,0,0,0,438.068,1512.6Zm0,9.073a4.028,4.028,0,1,1,3.992-4.537h-1.9a.509.509,0,0,0,0,1.018h1.9A4.032,4.032,0,0,1,438.068,1521.674Z" transform="translate(-7.021 -15.08)" fill="currentColor"></path><path d="M434.378,1498.256h-4.847a.509.509,0,0,0,0,1.018h4.847a.509.509,0,1,0,0-1.018Z" transform="translate(-4.378 -5.601)" fill="currentColor"></path><circle cx="0.721" cy="0.721" r="0.721" transform="translate(436.021 1492.443)" fill="currentColor"></circle><circle cx="0.721" cy="0.721" r="0.721" transform="translate(433.986 1492.443)" fill="currentColor"></circle><circle cx="0.721" cy="0.721" r="0.721" transform="translate(431.951 1492.443)" fill="currentColor"></circle></g></g></svg>`
 }
