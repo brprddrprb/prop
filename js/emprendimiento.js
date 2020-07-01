@@ -152,14 +152,15 @@ function addTags(tags) {
     tags.forEach(tag => {
         markup = `
       <li data-v-7f9ee979="">
-      <div data-v-2c0f8a5b="" data-v-7f9ee979="" class="content dev" style="display: flex;">
-      <span data-v-8c00fd2c="" data-v-2c0f8a5b="" title="" class="icon icon" style="display:
-        ${getDisplayFlex(tag.icon)};">
-        ${iconos[tag.icon]}
-      </span>
-      <span data-v-2c0f8a5b="" class="valueTag" style="display: ${getDisplayBlock(tag.valueTag)};">${tag.valueTag}</span>
-      <span data-v-2c0f8a5b="" class="value"><small data-v-2c0f8a5b="">${tag.value}</small></span>
-      <span data-v-2c0f8a5b="" class="description">${tag.description}</span></div>
+          <div data-v-2c0f8a5b="" data-v-7f9ee979="" class="content dev" style="display: flex;">
+              <span data-v-8c00fd2c="" data-v-2c0f8a5b="" title="" class="icon icon" style="display:
+                ${getDisplayFlex(tag.icon)};">
+                ${iconos[tag.icon]}
+              </span>
+              <span data-v-2c0f8a5b="" class="valueTag" style="display: ${getDisplayBlock(tag.valueTag)};">${tag.valueTag}</span>
+              <span data-v-2c0f8a5b="" class="value"><small data-v-2c0f8a5b="">${tag.value}</small></span>
+              <span data-v-2c0f8a5b="" class="description">${tag.description}</span>
+          </div>
       </li>`;
         tagsDev.innerHTML += markup
     });
