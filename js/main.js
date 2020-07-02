@@ -3,8 +3,8 @@ const listadoPropiedades = document.getElementById('listado-propiedades')
 let innerHTML = ''
 
 propiedades.forEach(propiedad => {
-  let markup = 
-  `
+    let markup =
+        `
     <a href="propiedad.html?id=${propiedad.id}">
       <div class="item cols-1 add">
         <div class="card-area">
@@ -26,7 +26,7 @@ propiedades.forEach(propiedad => {
       </div>
     </a>
   `
-  innerHTML += markup
+    innerHTML += markup
 });
 
 listadoPropiedades.innerHTML = innerHTML

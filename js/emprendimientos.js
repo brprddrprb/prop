@@ -3,7 +3,7 @@ const client = contentful.createClient({
     accessToken: 'zwUGD7Xrba9YJCBbFg91Os5i4OmdASiPv9Rt0nbnRmg'
 })
 
-client.getEntries()
+client.getEntries('emprendimiento')
     .then((entries) => {
         const listadoPropiedades = document.getElementsByName('listDevelopments')[0];
         let markup = '';
