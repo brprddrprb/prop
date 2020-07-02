@@ -1,39 +1,37 @@
 const urlParams = new URLSearchParams(window.location.search);
 const id = urlParams.get('id');
 
+const client = contentful.createClient({
+    space: 'poqm8saqwp2m',
+    accessToken: 'zwUGD7Xrba9YJCBbFg91Os5i4OmdASiPv9Rt0nbnRmg'
+})
 
-const checkEmprendimientos = async () => {
-    let emprendimientoData = await fetch('emprendimientos.json');
-    let emprendimientoJSON = await emprendimientoData.json();
-    return emprendimientoJSON[id - 1]
-};
+client.getEntry(id)
+    .then((entry) => {
+        console.log(entry.fields.imagenes[0].fields.file.url)
+        setupHTML(entry)
+    })
 
-const getEmprendimientos = async () => {
-    const emprendimiento = await checkEmprendimientos();
-    setupHTML(emprendimiento)
-
-};
-
-getEmprendimientos();
-
-function setupHTML(emprendimiento) {
+//
+function setupHTML(entry) {
 
     // Set title
-    document.querySelector('.titleArea h2').innerHTML += emprendimiento.nombre;
+    document.querySelector('.titleArea h2').innerHTML += entry.fields.nombre;
 
     // Set address
-    document.querySelector('.titleArea h4').innerHTML += emprendimiento.localidad + ', ' + emprendimiento.partido + '<br>' + emprendimiento.direccion;
+    document.querySelector('.titleArea h4').innerHTML += entry.fields.localidad + ', ' + entry.fields.partido + '<br>' + entry.fields.direccion;
 
     // Set type
-    document.querySelector('.type > div:nth-child(1)').innerHTML += emprendimiento.tipo;
+    document.querySelector('.type > div:nth-child(1)').innerHTML += entry.fields.tipo;
 
     // Set state
-    document.querySelector('.prices > div:nth-child(1)').innerHTML += emprendimiento.estado;
+    document.querySelector('.prices > div:nth-child(1)').innerHTML += entry.fields.estado;
 
     // Set Description
-    document.querySelector('.des').innerHTML += emprendimiento.descripcion;
+    document.querySelector('.des').innerHTML += entry.fields.descripcion;
 
-    addTags(emprendimiento.tags);
+    // TODO: add tags
+    // addTags(emprendimiento.tags);
 
     // Set atras
     document.querySelector('div.buttonsContent:nth-child(2) > button:nth-child(1)')
@@ -62,7 +60,7 @@ function setupHTML(emprendimiento) {
     const btnGalleryNext = document.querySelector('button.control:nth-child(4)');
     const btnGalleryPrev = document.querySelector('button.control:nth-child(3)');
     // Add img to gallery
-    addGalleryImg(emprendimiento.galeria, document.querySelector('.galleryContent'));
+    addGalleryImg(entry, document.querySelector('.galleryContent'));
     const elements = Array.from(document.getElementsByName('gallery'));
     btnGalleryNext.addEventListener('click', goToNext);
     btnGalleryPrev.addEventListener('click', goToPrev);
@@ -115,16 +113,16 @@ function setupHTML(emprendimiento) {
 }
 
 
-function addGalleryImg(imgs, galleryContent) {
+function addGalleryImg(entry, galleryContent) {
     let markup = '';
-    imgs.forEach(img => {
+    entry.fields.imagenes.forEach(img => {
         markup += `
-    <div data-v-583f8fa1="" name="gallery" class="item">
-        <div data-v-0d283d01="" data-v-53ef937b="" class="image imageArea adaptative scoped" data-v-583f8fa1="">
-            <img data-v-0d283d01="" src="${img}" alt="imagen de propiedad">
-        </div>
-    </div>
-    `
+            <div data-v-583f8fa1="" name="gallery" class="item">
+                <div data-v-0d283d01="" data-v-53ef937b="" class="image imageArea adaptative scoped" data-v-583f8fa1="">
+                    <img data-v-0d283d01="" src="${'https:' + img.fields.file.url}" alt="imagen de propiedad">
+                </div>
+            </div>
+         `
     });
     galleryContent.innerHTML = markup
 }
