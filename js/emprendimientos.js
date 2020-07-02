@@ -11,7 +11,7 @@ client.getEntries()
         console.log(entries.items[0].fields)
         entries.items.forEach(item => {
             markup = `
-                    <a href="emprendimiento.html?id=${'emprendimiento.id'}">
+                    <a href="emprendimiento.html?id=${item.sys.id}">
                         <div data-v-9e3e1fba="" class="item cols-1 add">
                             <div data-v-114ae90b="" data-v-29e75895="" class="cardArea default small" model="responsive"
                                  data-v-9e3e1fba="">
