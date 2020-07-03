@@ -4,54 +4,64 @@ const propiedad = propiedades.find(propiedad => propiedad.id == id);
 const galeria = document.querySelector('.gallery-content');
 const iconos = document.querySelector('.tags');
 
-// Agregar imagenes a galeria
-function agregarImagenesAgaleria() {
-    let markup = '';
-    propiedad.carousel.forEach(img => markup += `
-  <div name="gallery" class="item">
-    <div class="image image-area adaptative scoped">
-      <img src=${img} alt="">
-    </div>
-  </div>
-  `);
-    galeria.innerHTML = markup
-}
-
-agregarImagenesAgaleria();
-
-// Setear texto de atributos propiedad
-function atrSetter(cssSelector, attr) {
-    document.querySelector(cssSelector).append(propiedad[attr])
-}
-
-// Precio
-atrSetter('.price', 'valor');
-
-// Direccion
-atrSetter('.title-area h2', 'direccion');
-
-// Tipo de propiedad
-atrSetter('.property-type', 'tipo');
-
-// Barrio
-atrSetter('.title-area > h4 > span:nth-child(2)', 'barrio');
-
-// Zona
-atrSetter('.title-area > h4', 'zona');
-
-// Descripcion
-atrSetter('.desc > div > main > p', 'descripcion');
-
 // Galeria
 const btnGalleryNext = document.querySelector('.control-next-btn');
 const btnGalleryPrev = document.querySelector('.control-prev-btn');
 btnGalleryNext.addEventListener('click', goToNext);
 btnGalleryPrev.addEventListener('click', goToPrev);
+let elements;
 
-const elements = Array.from(document.getElementsByName('gallery'));
-elements[0].classList.add("active");
+// agregarEtiquetas(propiedad);
 
-agregarEtiquetas(propiedad);
+const client = contentful.createClient({
+    space: 'poqm8saqwp2m',
+    accessToken: 'zwUGD7Xrba9YJCBbFg91Os5i4OmdASiPv9Rt0nbnRmg'
+})
+
+client.getEntry(id)
+    .then((entry) => {
+        agregarImagenesAgaleria(entry)
+        // Precio
+        document.querySelector('.price').append(numberWithCommas(entry.fields.valor))
+
+        // Direccion
+        atrSetter('.title-area h2', entry, 'direccion');
+
+        // Tipo de propiedad
+        atrSetter('.property-type', entry, 'tipo');
+
+        // Barrio
+        atrSetter('.title-area > h4 > span:nth-child(2)', entry, 'localidad');
+
+        // Zona
+        atrSetter('.title-area > h4', entry, 'partido');
+
+        // Descripcion
+        atrSetter('.desc > div > main > p', entry, 'descripcion');
+
+        elements = Array.from(document.getElementsByName('gallery'));
+        elements[0].classList.add("active");
+    });
+
+
+// Agregar imagenes a galeria
+function agregarImagenesAgaleria(entry) {
+    let markup = '';
+    entry.fields.imagenes.forEach(img => markup += `
+      <div name="gallery" class="item">
+        <div class="image image-area adaptative scoped">
+          <img src=${'https:' + img.fields.file.url} alt="">
+        </div>
+      </div>
+      `
+    );
+    galeria.innerHTML = markup
+}
+
+// Setear texto de atributos propiedad
+function atrSetter(cssSelector, entry, attr) {
+    document.querySelector(cssSelector).append(entry.fields[attr])
+}
 
 // Tags
 function agregarEtiquetas(propiedad) {

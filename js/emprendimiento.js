@@ -8,7 +8,6 @@ const client = contentful.createClient({
 
 client.getEntry(id)
     .then((entry) => {
-        console.log(entry.fields.imagenes[0].fields.file.url)
         setupHTML(entry)
     })
 

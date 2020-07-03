@@ -7,7 +7,6 @@ client.getEntries({content_type: 'propiedad'})
     .then(entries => {
         const listadoPropiedades = document.getElementById('listado-propiedades')
         let innerHTML = ''
-        console.log(entries.items)
         entries.items.forEach(item => {
             let markup =
                 `
@@ -20,10 +19,10 @@ client.getEntries({content_type: 'propiedad'})
                         </div>
                         <div class="data">
                           <h3>${item.fields.direccion}</h3>
-                          <small>${item.fields.tipo} - ${item.fields.barrio}</small>
-                          <h4>$${item.fields.valor} - Venta</h4>
+                          <small>${item.fields.tipo} - ${item.fields.localidad}</small>
+                          <h4>$${numberWithCommas(item.fields.valor)} - Venta</h4>
                           <div class="tags">
-                            <span class="tag">797 m² Total</span>
+                            <span class="tag">${item.fields.mts} m² Total</span>
                           </div>
                           <h4>${item.fields.vendido ? 'VENDIDO' : ''}</h4>
                         </div>
