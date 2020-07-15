@@ -1,0 +1,11 @@
+a {
+    display: block;
+    max-width: 375px;
+}
+
+main {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
+    justify-content: center;
+    justify-items: center;
+}
