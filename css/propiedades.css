@@ -304,5 +304,11 @@ a {
 }
 
 .list-properties a {
-  width: 100%;
+  width: 48%;
+}
+
+@media screen and (max-width: 850px) {
+  .list-properties a {
+    width: 100%;
+  }
 }
