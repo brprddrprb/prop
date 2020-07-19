@@ -1138,3 +1138,16 @@ div.app.common .card-area {
         padding-top: 10px;
     }
 }
+
+div.main div.title-area h2 {
+    padding-left: 0;
+}
+
+div.display-ar {
+    max-width: 700px;
+    max-height: 450px;
+}
+
+div.main {
+    max-width: 400px;
+}
