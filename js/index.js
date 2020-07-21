@@ -6,20 +6,26 @@ const imgMobile = [
               'img/home-c-mob@2x.jpg'
             ];
 const imgWide = [
-                'https://source.unsplash.com/random/1920x1080',
-                'https://source.unsplash.com/random/1921x1080',
-                'https://source.unsplash.com/random/1922x1080'
+                'img/home-a.jpg',
+                'img/home-b.jpg',
+                'img/home-a.jpg'
                 ];
-function getImgArray() {
-  return screen.width > 640 ? imgWide : imgMobile
+const mobileImg = getRandomImg(imgMobile)
+const wideImg = getRandomImg(imgWide)
+const windowMatch = window.matchMedia("(max-width: 640px)")
+
+function getRandomImg(imgArray) {
+    return imgArray[Math.floor(Math.random() * 3)]
 }
 
-function randomImg() {
-  bg.style.background = `url(${getImgArray()[Math.floor(Math.random() * 3)]}) repeat-x transparent`
+function setImg() {
+    windowMatch.matches ? bg.style.backgroundImage = `url(${mobileImg})`
+        : bg.style.backgroundImage = `url(${wideImg})`
 }
 
-randomImg();
-window.addEventListener('resize', randomImg)
+setImg()
+
+window.addEventListener("resize", setImg)
 
 // Estado inicial
 // transition: all 0.15s ease-in-out 0s; transform: translate(0px);
