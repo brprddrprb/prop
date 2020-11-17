@@ -1,15 +1,15 @@
 const client = contentful.createClient({
-    space: 'poqm8saqwp2m',
-    accessToken: 'zwUGD7Xrba9YJCBbFg91Os5i4OmdASiPv9Rt0nbnRmg'
+  space: 'poqm8saqwp2m',
+  accessToken: 'zwUGD7Xrba9YJCBbFg91Os5i4OmdASiPv9Rt0nbnRmg'
 })
 
-client.getEntries({content_type: 'propiedad'})
-    .then(entries => {
-        const listadoPropiedades = document.getElementById('listado-propiedades')
-        let innerHTML = ''
-        entries.items.forEach(item => {
-            let markup =
-                `
+client.getEntries({ content_type: 'propiedad' })
+  .then(entries => {
+    const listadoPropiedades = document.getElementById('listado-propiedades')
+    let innerHTML = ''
+    entries.items.forEach(item => {
+      let markup =
+        `
                 <a href="propiedad.html?id=${item.sys.id}">
                   <div class="item cols-1 add">
                     <div class="card-area">
@@ -31,8 +31,8 @@ client.getEntries({content_type: 'propiedad'})
                   </div>
                 </a>
               `
-            innerHTML += markup
-        });
-        listadoPropiedades.innerHTML = innerHTML
-    })
+      innerHTML += markup
+    });
+    listadoPropiedades.innerHTML = innerHTML
+  })
 
