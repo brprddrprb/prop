@@ -315,7 +315,11 @@ a {
 
 @media screen and (min-width: 1080px) {
   div.display {
-    width: 22vw;
-    height: 22vw;
+    width: 20vw;
+    height: 20vw;
+  }
+
+  div.data {
+    width: unset;
   }
 }
