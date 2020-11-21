@@ -304,7 +304,7 @@ a {
 }
 
 .list-properties a {
-  width: 48%;
+  width: 100%;
 }
 
 @media screen and (max-width: 850px) {
@@ -313,13 +313,29 @@ a {
   }
 }
 
-@media screen and (min-width: 1080px) {
+@media screen and (min-width: 640px) {
   div.display {
     width: 20vw;
     height: 20vw;
   }
 
-  div.data {
-    width: unset;
+  .list-properties a {
+    width: 33.33%;
   }
+
+  div.display {
+    margin-left: unset;
+    max-height: 210px;
+    padding: 0;
+    width: unset;
+    height: 17.96875vw;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+  }
+
+  div.data {
+    width: 100%;
+  }
+
+
 }
